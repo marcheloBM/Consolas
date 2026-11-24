@@ -3457,4 +3457,2900 @@ const ps4Apps = [
     ],
   },
 },
+// PS4 Controller Homebrew
+{
+  console: "PS4",
+  name: "PS4 Controller Homebrew",
+  image: "img/PS4/ps4-controller-homebrew.jpg",
+
+  description:
+    "Utilidad para PlayStation 4 que permite comprobar el funcionamiento de los botones y controles del mando DualShock 4.",
+
+  website: "https://pkg-zone.com/details/NPXX51364",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/7ZYwxBZQ#tSjxXuG0yr4W9tSD70AhHA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite verificar botones, gatillos, sticks y controles del mando para detectar posibles fallos.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      DualShock4: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "DualShock 4",
+      "PS4 Controller Homebrew",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar PS4 Controller Homebrew.",
+    ],
+
+    usage:
+      "Permite visualizar en tiempo real las pulsaciones realizadas en el mando para comprobar su funcionamiento.",
+
+    notes:
+      "Según el tutorial original, pulsar el panel táctil puede provocar que la aplicación deje de responder. 【1-8e7b7e】",
+
+    version: "Actual",
+    author: "PS4 Scene",
+
+    details: [
+      {
+        title: "Comprobación de Botones",
+        description:
+          "Verificar entradas del mando.",
+
+        items: [
+          "✕",
+          "◯",
+          "□",
+          "△",
+          "L1 y R1",
+          "L2 y R2",
+        ],
+      },
+
+      {
+        title: "Sticks Analógicos",
+        description:
+          "Pruebas de movimiento.",
+
+        items: [
+          "Stick izquierdo.",
+          "Stick derecho.",
+          "Detección analógica.",
+          "Movimiento en tiempo real.",
+        ],
+      },
+
+      {
+        title: "Direccional",
+        description:
+          "Verificación de entradas.",
+
+        items: [
+          "Arriba.",
+          "Abajo.",
+          "Izquierda.",
+          "Derecha.",
+        ],
+      },
+
+      {
+        title: "Diagnóstico",
+        description:
+          "Comprobación general.",
+
+        items: [
+          "Botones defectuosos.",
+          "Drift de sticks.",
+          "Problemas de respuesta.",
+          "Verificación rápida.",
+        ],
+      },
+
+      {
+        title: "Advertencia",
+        description:
+          "Limitaciones conocidas.",
+
+        items: [
+          "No pulsar el panel táctil.",
+          "Puede congelar la aplicación.",
+          "Cerrar y volver a abrir si ocurre.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Muy ligera.",
+          "Diagnóstico rápido.",
+          "Fácil utilización.",
+          "Ideal para pruebas.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "PS4 Xplorer",
+          "GoldHEN",
+          "Orbis Toolbox",
+          "PS4 Toolset",
+        ],
+      },
+    ],
+  },
+},
+// PSLAN Loader
+{
+  console: "PS4",
+  name: "PSLAN Loader",
+  image: "img/PS4/pslan-loader.jpg",
+
+  description:
+    "Aplicación para PlayStation 4 que permite utilizar funciones multijugador en juegos compatibles mediante servidores PSLAN.",
+
+  website: "https://discord.com/invite/u8tcA6HpbK",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/KFIAgRSb#ChmPYoYYhiWprmxDPpaUVw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite habilitar funcionalidades multijugador en juegos compatibles utilizando la plataforma PSLAN.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      LAN: "✅ Compatible",
+      Multiplayer: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Conexión a Internet",
+      "PSLAN Loader",
+      "Juego compatible",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar PSLAN Loader.",
+    ],
+
+    usage:
+      "Permite iniciar el servicio PSLAN antes de ejecutar juegos compatibles.",
+
+    notes:
+      "La compatibilidad depende de cada juego. La lista de títulos compatibles suele mantenerse en la comunidad PSLAN.",
+
+    version: "Actual",
+    author: "PSLAN Team",
+
+    details: [
+      {
+        title: "¿Qué es PSLAN?",
+        description:
+          "Servicio de juego multijugador.",
+
+        items: [
+          "Partidas compatibles.",
+          "Juego por red.",
+          "Comunidad activa.",
+          "Soporte para títulos específicos.",
+        ],
+      },
+
+      {
+        title: "Primer Inicio",
+        description:
+          "Carga del servicio.",
+
+        items: [
+          "Abrir PSLAN Loader.",
+          "Esperar la carga.",
+          "Minimización automática.",
+          "Servicio activo.",
+        ],
+      },
+
+      {
+        title: "Juegos Compatibles",
+        description:
+          "Requisito principal.",
+
+        items: [
+          "Solo títulos compatibles.",
+          "Compatibilidad variable.",
+          "Actualizaciones frecuentes.",
+          "Listado comunitario.",
+        ],
+      },
+
+      {
+        title: "Conexión",
+        description:
+          "Acceso al servicio.",
+
+        items: [
+          "Conexión a Internet.",
+          "Servidor PSLAN.",
+          "Carga automática.",
+          "Acceso desde el juego.",
+        ],
+      },
+
+      {
+        title: "Uso Diario",
+        description:
+          "Procedimiento habitual.",
+
+        items: [
+          "Iniciar PSLAN Loader.",
+          "Esperar carga.",
+          "Abrir juego compatible.",
+          "Acceder al multijugador.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Fácil utilización.",
+          "Carga rápida.",
+          "Compatible con GoldHEN.",
+          "Experiencia multijugador.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "LogMeIn Hamachi",
+          "GoldHEN",
+          "ezRemote Client",
+          "Remote PKG Installer",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Flash0 NOR Dump
+{
+  console: "PS4",
+  name: "Flash0 NOR Dump",
+  image: "img/PS4/flash0-nor-dump.jpg",
+
+  description:
+    "Herramienta para realizar una copia de seguridad del contenido NOR de PlayStation 4 y almacenarla en un dispositivo USB.",
+
+  website: "https://github.com/Andryshik345/ps4-sflash0-dumper",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/fEQUHLZC#qMQczn7Th83OXzBpUtzswQ",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Andryshik345/ps4-sflash0-dumper/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear un respaldo del archivo NOR de la consola para tareas de mantenimiento y recuperación.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PayloadGuest: "✅ Compatible",
+      PS4FAT: "✅ Compatible",
+      PS4Slim: "✅ Compatible",
+      PS4Pro: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 compatible",
+      "GoldHEN",
+      "Payload Guest",
+      "USB ExFAT",
+      "Flash0 NOR Dump",
+    ],
+
+    installation: [
+      "Copiar el payload al USB.",
+      "Crear carpeta payloads.",
+      "Ejecutar Payload Guest.",
+      "Cargar Flash0 NOR Dump.",
+    ],
+
+    usage:
+      "Permite generar una copia de seguridad del archivo NOR y almacenarla en un dispositivo USB externo.",
+
+    notes:
+      "Se recomienda guardar el archivo generado en varios lugares seguros y conservarlo como respaldo permanente de la consola.",
+
+    version: "1.0.0",
+    author: "PS4 Scene",
+
+    details: [
+      {
+        title: "¿Qué es NOR Dump?",
+        description:
+          "Respaldo de la memoria NOR.",
+
+        items: [
+          "Copia de seguridad.",
+          "Compatible con PS4.",
+          "Archivo único.",
+          "Uso de mantenimiento.",
+        ],
+      },
+
+      {
+        title: "Preparar Payload",
+        description:
+          "Archivos necesarios.",
+
+        items: [
+          "ps4-sflash0-dumper.bin",
+          "Carpeta payloads",
+          "USB ExFAT",
+          "Payload Guest",
+        ],
+      },
+
+      {
+        title: "Ruta Compatible",
+        description:
+          "Ubicaciones soportadas.",
+
+        items: [
+          "/payloads",
+          "/data/payloads",
+          "USB",
+          "Almacenamiento interno",
+        ],
+      },
+
+      {
+        title: "Carga del Payload",
+        description:
+          "Ejecución desde Payload Guest.",
+
+        items: [
+          "Abrir Payload Guest.",
+          "Seleccionar payload.",
+          "Iniciar proceso.",
+          "Esperar finalización.",
+        ],
+      },
+
+      {
+        title: "Archivo Generado",
+        description:
+          "Resultado del volcado.",
+
+        items: [
+          "sflash0.bin",
+          "Respaldo NOR.",
+          "Guardar en PC.",
+          "Mantener copia de seguridad.",
+        ],
+      },
+
+      {
+        title: "Modelos Compatibles",
+        description:
+          "Consolas soportadas.",
+
+        items: [
+          "PS4 FAT",
+          "PS4 Slim",
+          "PS4 Pro",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Respaldo de seguridad.",
+          "Proceso sencillo.",
+          "Compatible con GoldHEN.",
+          "Compatible con Payload Guest.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "GoldHEN",
+          "Payloads PS4",
+          "PS4 Toolset",
+          "Orbis Toolbox",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Notification Shortcuts
+{
+  console: "PS4",
+  name: "Notification Shortcuts",
+  image: "img/PS4/notification-shortcuts.jpg",
+
+  description:
+    "Utilidad para PlayStation 4 que agrega accesos rápidos a funciones y herramientas directamente desde el menú de notificaciones.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/fVoWgJhT#sUNdOW6bfSaUi19kx7GWVQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite acceder rápidamente a diversas herramientas desde el centro de notificaciones de la consola.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PayloadGuest: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Payload Guest",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Instalar desde Package Installer.",
+      "Ejecutar Install Permanent Notifications.",
+      "Cargar Notification-Shortcut desde Payload Guest.",
+    ],
+
+    usage:
+      "Añade accesos directos al panel de notificaciones para acceder más rápidamente a herramientas compatibles.",
+
+    notes:
+      "Al instalar la versión permanente los accesos estarán disponibles después de reiniciar la consola. 【1-b5daf2】",
+
+    version: "Actual",
+    author: "PS4 Scene",
+
+    details: [
+      {
+        title: "Instalación Permanente",
+        description:
+          "Activación recomendada.",
+
+        items: [
+          "Install Permanent Notifications.",
+          "Configuración automática.",
+          "Accesos persistentes.",
+          "Uso diario.",
+        ],
+      },
+
+      {
+        title: "Payload Guest",
+        description:
+          "Carga del acceso rápido.",
+
+        items: [
+          "Abrir Payload Guest.",
+          "Buscar Notification-Shortcut.",
+          "Ejecutar payload.",
+          "Activar accesos.",
+        ],
+      },
+
+      {
+        title: "Panel de Notificaciones",
+        description:
+          "Acceso rápido.",
+
+        items: [
+          "Herramientas frecuentes.",
+          "Funciones rápidas.",
+          "Acceso simplificado.",
+          "Menor navegación por menús.",
+        ],
+      },
+
+      {
+        title: "Integración",
+        description:
+          "Compatibilidad con GoldHEN.",
+
+        items: [
+          "Sistema integrado.",
+          "Funciones adicionales.",
+          "Acceso directo.",
+          "Mayor comodidad.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Acceso más rápido.",
+          "Integración sencilla.",
+          "Compatible con GoldHEN.",
+          "Uso cotidiano.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "GoldHEN",
+          "Payloads PS4",
+          "PS4 Toolset",
+          "Orbis Toolbox",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Avatar Changer
+{
+  console: "PS4",
+  name: "Avatar Changer",
+  image: "img/PS4/avatar-changer.jpg",
+
+  description:
+    "Aplicación para PlayStation 4 que permite instalar y cambiar avatares personalizados directamente desde la consola.",
+
+  website: "https://pkg-zone.com/details/LAPY20015",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/OQg3hJZI#LZSA10JkQPK5GSvGm9WyZg",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite explorar e instalar diferentes avatares para personalizar el perfil de usuario en PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Avatares: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Avatar Changer",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar Avatar Changer.",
+    ],
+
+    usage:
+      "Permite seleccionar e instalar avatares disponibles desde la propia aplicación.",
+
+    notes:
+      "Después de aplicar un avatar puede ser necesario volver al perfil para visualizar correctamente los cambios.",
+
+    version: "Actual",
+    author: "PS4 Scene",
+
+    details: [
+      {
+        title: "Catálogo de Avatares",
+        description:
+          "Avatares disponibles.",
+
+        items: [
+          "Colección integrada.",
+          "Múltiples diseños.",
+          "Selección rápida.",
+          "Vista previa.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Proceso sencillo.",
+
+        items: [
+          "Abrir Avatar Changer.",
+          "Seleccionar avatar.",
+          "Aplicar cambios.",
+          "Confirmar instalación.",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Modificar apariencia del perfil.",
+
+        items: [
+          "Cambiar avatar.",
+          "Personalizar usuario.",
+          "Mejorar apariencia.",
+          "Configuración sencilla.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Uso de la aplicación.",
+
+        items: [
+          "Listado de avatares.",
+          "Vista previa.",
+          "Instalación rápida.",
+          "Navegación sencilla.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Fácil utilización.",
+          "Personalización rápida.",
+          "Compatible con GoldHEN.",
+          "Amplia variedad de avatares.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Icon Mask",
+          "Itemzflow Game Manager",
+          "Homebrew Store",
+          "PS4 Xplorer",
+          "GoldHEN",
+        ],
+      },
+    ],
+  },
+},
+// Plataformas Streaming
+{
+  console: "PS4",
+  name: "Plataformas Streaming",
+  image: "img/PS4/plataformas-streaming.jpg",
+
+  description:
+    "Colección de aplicaciones multimedia para PlayStation 4 que permiten acceder a servicios de vídeo, series y streaming desde la consola.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/GEgmwZ5J#PXLsE7kwb0H6P7ZUuELWwQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite instalar aplicaciones multimedia compatibles para visualizar películas, series y contenido en streaming.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Streaming: "✅ Compatible",
+      Internet: "✅ Requerido",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Conexión a Internet",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar los PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar las aplicaciones deseadas.",
+    ],
+
+    usage:
+      "Permite utilizar diferentes plataformas multimedia directamente desde la consola.",
+
+    notes:
+      "Algunas aplicaciones pueden requerir configuraciones específicas de red para funcionar correctamente. 【1-2835a9】",
+
+    version: "Pack",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Aplicaciones Incluidas",
+        description:
+          "Servicios disponibles.",
+
+        items: [
+          "Amazon Prime Video",
+          "Netflix",
+          "Crunchyroll",
+          "Plex",
+          "YouTube",
+          "Hulu",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Proceso de instalación.",
+
+        items: [
+          "Seleccionar PKG.",
+          "Instalar aplicación.",
+          "Esperar finalización.",
+          "Abrir desde el menú principal.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones con DNS",
+        description:
+          "Configuración especial.",
+
+        items: [
+          "Hulu",
+          "Configuración DNS requerida.",
+          "Acceso mediante red configurada.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Sin DNS",
+        description:
+          "Instalación estándar.",
+
+        items: [
+          "Amazon Prime Video",
+          "Netflix",
+          "Crunchyroll",
+          "Plex",
+          "YouTube",
+        ],
+      },
+
+      {
+  title: "Aplicaciones De Plataformas",
+  description:
+    "Servicios incluidos en el paquete.",
+
+  items: [
+    "Amazon Prime Video",
+    "Netflix",
+    "Crunchyroll",
+    "Plex",
+    "YouTube",
+    "Pluto TV",
+    "Hulu",
+    "WiiMC",
+    "PS4 Media Player",
+    "PS4 Player",
+  ],
+},
+
+      {
+        title: "Multimedia",
+        description:
+          "Uso principal.",
+
+        items: [
+          "Películas.",
+          "Series.",
+          "Anime.",
+          "Vídeos online.",
+          "Bibliotecas multimedia.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Todo en un solo paquete.",
+          "Fácil instalación.",
+          "Compatible con PS4.",
+          "Amplia variedad de servicios.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas multimedia.",
+
+        items: [
+          "Plex",
+          "YouTube",
+          "Homebrew Store",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// pPlay
+{
+  console: "PS4",
+  name: "pPlay",
+  image: "img/PS4/pplay.jpg",
+
+  description:
+    "Reproductor multimedia para PlayStation 4 con soporte para múltiples formatos de vídeo, subtítulos y reproducción mediante streaming HTTP.",
+
+  website: "https://github.com/Cpasjuste/pplay",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/TQhCGLiZ#QShhZeCqqXKq_Ot-F49Cxg",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Cpasjuste/pplay/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite reproducir vídeos almacenados localmente o mediante streaming desde una interfaz optimizada para PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Video: "✅ Compatible",
+      HTTP: "✅ Compatible",
+      Subtitulos: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "pPlay",
+      "PS4 Xplorer o FTP",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Instalar pPlay desde Package Installer.",
+      "Copiar la carpeta DATA.",
+      "Transferir la carpeta a /data.",
+      "Abrir la aplicación.",
+    ],
+
+    usage:
+      "Permite explorar el almacenamiento de la consola y reproducir vídeos compatibles desde USB, almacenamiento interno o streaming.",
+
+    notes:
+      "La carpeta DATA debe copiarse previamente a la ruta /data para garantizar el funcionamiento correcto de la aplicación. 【1-6189fe】",
+
+    version: "Actual",
+    author: "Cpasjuste",
+
+    details: [
+      {
+        title: "Formatos Multimedia",
+        description:
+          "Compatibilidad de reproducción.",
+
+        items: [
+          "Vídeos.",
+          "Subtítulos integrados.",
+          "Streaming HTTP.",
+          "Múltiples formatos compatibles.",
+        ],
+      },
+
+      {
+        title: "Preparación Inicial",
+        description:
+          "Configuración requerida.",
+
+        items: [
+          "Copiar carpeta DATA.",
+          "Transferir a /data.",
+          "Usar FTP o PS4 Xplorer.",
+          "Reiniciar aplicación.",
+        ],
+      },
+
+      {
+        title: "PS4 Xplorer",
+        description:
+          "Método recomendado.",
+
+        items: [
+          "Abrir PS4 Xplorer.",
+          "Localizar USB.",
+          "Copiar carpeta DATA.",
+          "Pegar en /data.",
+        ],
+      },
+
+      {
+        title: "FTP",
+        description:
+          "Método alternativo.",
+
+        items: [
+          "Conectar mediante FTP.",
+          "Acceder a /data.",
+          "Transferir carpeta DATA.",
+          "Verificar contenido.",
+        ],
+      },
+
+      {
+        title: "Explorador Integrado",
+        description:
+          "Acceso a archivos.",
+
+        items: [
+          "Navegar directorios.",
+          "Acceder a la raíz.",
+          "Seleccionar vídeos.",
+          "Reproducir contenido.",
+        ],
+      },
+
+      {
+        title: "Streaming",
+        description:
+          "Reproducción remota.",
+
+        items: [
+          "Servidor HTTP.",
+          "Contenido remoto.",
+          "Acceso directo.",
+          "Visualización en PS4.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Compatible con subtítulos.",
+          "Múltiples formatos.",
+          "Streaming integrado.",
+          "Interfaz sencilla.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas multimedia.",
+
+        items: [
+          "Plataformas Streaming",
+          "Plex",
+          "YouTube",
+          "PS4 Xplorer",
+          "ezRemote Client",
+        ],
+      },
+    ],
+  },
+},
+// Media Player
+{
+  console: "PS4",
+  name: "Media Player",
+  image: "img/PS4/media-player.jpg",
+
+  description:
+    "Reproductor multimedia para PlayStation 4 que permite reproducir vídeos, música e imágenes desde dispositivos USB compatibles.",
+
+  website: "https://pkg-zone.com/details/CUSA02012",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/yFhQiCaK#RunmCNZTDaQ2mpU7JLTHlQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite reproducir contenido multimedia directamente desde la consola utilizando almacenamiento externo.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      USB: "✅ Compatible",
+      Video: "✅ Compatible",
+      Musica: "✅ Compatible",
+      Imagenes: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "USB ExFAT",
+      "Media Player",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar Media Player.",
+    ],
+
+    usage:
+      "Permite explorar dispositivos USB y reproducir archivos multimedia compatibles desde la consola.",
+
+    notes:
+      "Ideal para visualizar vídeos, escuchar música o ver fotografías sin necesidad de aplicaciones externas. 【1-e8e4ae】",
+
+    version: "Actual",
+    author: "Sony",
+
+    details: [
+      {
+        title: "Contenido Multimedia",
+        description:
+          "Archivos compatibles.",
+
+        items: [
+          "Vídeos.",
+          "Música.",
+          "Fotografías.",
+          "Contenido multimedia local.",
+        ],
+      },
+
+      {
+        title: "Almacenamiento USB",
+        description:
+          "Soporte externo.",
+
+        items: [
+          "USB ExFAT.",
+          "Exploración automática.",
+          "Acceso rápido.",
+          "Detección sencilla.",
+        ],
+      },
+
+      {
+        title: "Biblioteca Multimedia",
+        description:
+          "Acceso al contenido.",
+
+        items: [
+          "Organización de archivos.",
+          "Navegación intuitiva.",
+          "Selección sencilla.",
+          "Reproducción rápida.",
+        ],
+      },
+
+      {
+        title: "Vídeos",
+        description:
+          "Reproducción de películas y clips.",
+
+        items: [
+          "Contenido local.",
+          "Reproducción directa.",
+          "Control desde el mando.",
+          "Visualización a pantalla completa.",
+        ],
+      },
+
+      {
+        title: "Música",
+        description:
+          "Biblioteca sonora.",
+
+        items: [
+          "Canciones.",
+          "Álbumes.",
+          "Listas de reproducción.",
+          "Reproducción continua.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Aplicación ligera.",
+          "Interfaz sencilla.",
+          "Compatible con USB.",
+          "Uso inmediato.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas multimedia.",
+
+        items: [
+          "pPlay",
+          "Plataformas Streaming",
+          "Plex",
+          "YouTube",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// PS4 Player
+{
+  console: "PS4",
+  name: "PS4 Player",
+  image: "img/PS4/ps4-player.jpg",
+
+  description:
+    "Reproductor multimedia para PlayStation 4 desarrollado por @Lapy, diseñado para reproducir contenido de vídeo y multimedia directamente desde la consola.",
+
+  website: "https://github.com/Cpasjuste/pplay",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/LIIThBrD#XUkiajJUrtafEVK7br3iQQ",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Cpasjuste/pplay/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite reproducir contenido multimedia desde dispositivos USB y almacenamiento compatible en PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      USB: "✅ Compatible",
+      Multimedia: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "PS4 Player",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar PS4 Player.",
+    ],
+
+    usage:
+      "Permite explorar y reproducir contenido multimedia desde la propia consola.",
+
+    notes:
+      "Diseñado para ofrecer una alternativa sencilla para la reproducción de contenido multimedia en PS4. 【1-bc8aff】",
+
+    version: "Actual",
+    author: "@Lapy",
+
+    details: [
+      {
+        title: "Multimedia",
+        description:
+          "Funciones principales.",
+
+        items: [
+          "Reproducción de vídeo.",
+          "Exploración multimedia.",
+          "Acceso desde PS4.",
+          "Interfaz sencilla.",
+        ],
+      },
+
+      {
+        title: "Almacenamiento USB",
+        description:
+          "Contenido externo.",
+
+        items: [
+          "USB ExFAT.",
+          "Detección automática.",
+          "Acceso rápido.",
+          "Reproducción directa.",
+        ],
+      },
+
+      {
+        title: "Biblioteca",
+        description:
+          "Gestión de archivos.",
+
+        items: [
+          "Archivos multimedia.",
+          "Exploración de carpetas.",
+          "Selección sencilla.",
+          "Navegación rápida.",
+        ],
+      },
+
+      {
+        title: "Reproducción",
+        description:
+          "Uso principal.",
+
+        items: [
+          "Vídeos.",
+          "Contenido multimedia.",
+          "Visualización en pantalla completa.",
+          "Control mediante DualShock 4.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de usuario.",
+
+        items: [
+          "Diseño ligero.",
+          "Navegación intuitiva.",
+          "Acceso rápido.",
+          "Fácil utilización.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Ligero.",
+          "Fácil de usar.",
+          "Compatible con GoldHEN.",
+          "Compatible con USB ExFAT.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas multimedia.",
+
+        items: [
+          "Media Player",
+          "pPlay",
+          "Plataformas Streaming",
+          "Plex",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Pluto TV
+{
+  console: "PS4",
+  name: "Pluto TV",
+  image: "img/PS4/pluto-tv.jpg",
+
+  description:
+    "Aplicación multimedia para PlayStation 4 que permite acceder a canales de televisión en directo y contenido gratuito mediante Internet.",
+
+  website: "https://pkg-zone.com/details/CUSA04688",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/CNRyQAAD#ot_Yd97EgbmtRnd6blHAWA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite visualizar canales de televisión y contenido multimedia gratuito directamente desde la consola.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Streaming: "✅ Compatible",
+      Internet: "✅ Requerido",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Conexión a Internet",
+      "Pluto TV",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar Pluto TV.",
+    ],
+
+    usage:
+      "Permite acceder a canales en directo y contenido bajo demanda desde una interfaz optimizada para PS4.",
+
+    notes:
+      "Se requiere conexión a Internet para acceder al catálogo y canales disponibles. 【1-f2942c】",
+
+    version: "Actual",
+    author: "Pluto TV",
+
+    details: [
+      {
+        title: "Televisión en Directo",
+        description:
+          "Canales disponibles.",
+
+        items: [
+          "Canales en vivo.",
+          "Programación continua.",
+          "Contenido gratuito.",
+          "Acceso rápido.",
+        ],
+      },
+
+      {
+        title: "Contenido Bajo Demanda",
+        description:
+          "Visualización flexible.",
+
+        items: [
+          "Series.",
+          "Películas.",
+          "Programas.",
+          "Contenido variado.",
+        ],
+      },
+
+      {
+        title: "Primer Inicio",
+        description:
+          "Configuración básica.",
+
+        items: [
+          "Abrir Pluto TV.",
+          "Conectar a Internet.",
+          "Explorar categorías.",
+          "Seleccionar contenido.",
+        ],
+      },
+
+      {
+        title: "Canales",
+        description:
+          "Contenido disponible.",
+
+        items: [
+          "Noticias.",
+          "Entretenimiento.",
+          "Deportes.",
+          "Películas.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Navegación sencilla.",
+
+        items: [
+          "Guía de canales.",
+          "Exploración rápida.",
+          "Acceso inmediato.",
+          "Diseño intuitivo.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Contenido gratuito.",
+          "Canales en directo.",
+          "Instalación sencilla.",
+          "Compatible con PS4.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas multimedia.",
+
+        items: [
+          "Plataformas Streaming",
+          "Media Player",
+          "pPlay",
+          "PS4 Player",
+          "Plex",
+        ],
+      },
+    ],
+  },
+},
+// pNES
+{
+  console: "PS4",
+  name: "pNES",
+  image: "img/PS4/pnes.jpg",
+
+  description:
+    "Emulador para PlayStation 4 que permite ejecutar juegos clásicos de Nintendo Entertainment System (NES) desde una interfaz adaptada a la consola.",
+
+  website: "https://github.com/Cpasjuste/pemu",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/7JQkiZpA#c98AXWgNpETUWqNmdP1cMg",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Cpasjuste/pemu/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar juegos de Nintendo Entertainment System (NES) directamente desde PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      NES: "✅ Compatible",
+      ROMs: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "pNES",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar pNES.",
+    ],
+
+    usage:
+      "Permite cargar y ejecutar juegos compatibles de NES desde una interfaz sencilla adaptada para PS4.",
+
+    notes:
+      "Incluye opciones de configuración accesibles desde el menú del emulador. 【1-5f759b】",
+
+    version: "Actual",
+    author: "pEMU Team",
+
+    details: [
+      {
+        title: "Sistema Compatible",
+        description:
+          "Consola emulada.",
+
+        items: [
+          "Nintendo Entertainment System",
+          "NES",
+          "8 Bits",
+          "Retro Gaming",
+        ],
+      },
+
+      {
+        title: "Biblioteca de Juegos",
+        description:
+          "Selección disponible.",
+
+        items: [
+          "Listado de ROMs.",
+          "Selección rápida.",
+          "Acceso sencillo.",
+          "Carga inmediata.",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Opciones del emulador.",
+
+        items: [
+          "Menú de ajustes.",
+          "Opciones de vídeo.",
+          "Configuraciones adicionales.",
+          "Personalización básica.",
+        ],
+      },
+
+      {
+        title: "Controles",
+        description:
+          "Uso mediante DualShock 4.",
+
+        items: [
+          "Compatible con DualShock 4.",
+          "Asignación integrada.",
+          "Acceso rápido.",
+          "Navegación sencilla.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de uso.",
+
+        items: [
+          "Diseño ligero.",
+          "Menús simples.",
+          "Navegación rápida.",
+          "Fácil utilización.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Emulación clásica.",
+          "Interfaz sencilla.",
+          "Compatible con GoldHEN.",
+          "Configuración rápida.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros emuladores recomendados.",
+
+        items: [
+          "RetroArch",
+          "Batocera PS4",
+          "Linux en PS4",
+          "Otros emuladores pEMU",
+        ],
+      },
+    ],
+  },
+},
+// pSNES
+{
+  console: "PS4",
+  name: "pSNES",
+  image: "img/PS4/psnes.jpg",
+
+  description:
+    "Emulador para PlayStation 4 basado en Snes9x que permite ejecutar juegos de Super Nintendo Entertainment System (SNES).",
+
+  website: "https://github.com/Cpasjuste/pemu",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/uAoyzA4Z#3Ra2NHjF9FeqxjKeGAye3w",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Cpasjuste/pemu/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar juegos clásicos de Super Nintendo directamente desde PlayStation 4 mediante una interfaz optimizada para el mando DualShock 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      SNES: "✅ Compatible",
+      Snes9x: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "pSNES",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar pSNES.",
+    ],
+
+    usage:
+      "Permite cargar y ejecutar juegos de Super Nintendo desde una interfaz sencilla y ligera.",
+
+    notes:
+      "Incluye opciones de configuración accesibles desde el menú interno del emulador. 【1-565eac】",
+
+    version: "Actual",
+    author: "pEMU Team",
+
+    details: [
+      {
+        title: "Sistema Compatible",
+        description:
+          "Consola emulada.",
+
+        items: [
+          "Super Nintendo",
+          "SNES",
+          "16 Bits",
+          "Retro Gaming",
+        ],
+      },
+
+      {
+        title: "Biblioteca de Juegos",
+        description:
+          "Selección de ROMs.",
+
+        items: [
+          "Listado de juegos.",
+          "Navegación rápida.",
+          "Carga sencilla.",
+          "Selección inmediata.",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Opciones del emulador.",
+
+        items: [
+          "Menú de ajustes.",
+          "Opciones gráficas.",
+          "Configuración de audio.",
+          "Personalización básica.",
+        ],
+      },
+
+      {
+        title: "Acceso Rápido",
+        description:
+          "Menú interno.",
+
+        items: [
+          "Botón R1.",
+          "Configuración avanzada.",
+          "Opciones del sistema.",
+          "Ajustes de emulación.",
+        ],
+      },
+
+      {
+        title: "Controles",
+        description:
+          "Compatibilidad.",
+
+        items: [
+          "DualShock 4.",
+          "Mapeo integrado.",
+          "Control completo.",
+          "Navegación sencilla.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Basado en Snes9x.",
+          "Compatible con GoldHEN.",
+          "Interfaz sencilla.",
+          "Emulación ligera.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros emuladores recomendados.",
+
+        items: [
+          "pNES",
+          "RetroArch",
+          "Batocera PS4",
+          "Linux en PS4",
+          "Otros emuladores pEMU",
+        ],
+      },
+    ],
+  },
+},
+// pFBN Neo
+{
+  console: "PS4",
+  name: "pFBN Neo",
+  image: "img/PS4/pfbneo.jpg",
+
+  description:
+    "Emulador multisistema para PlayStation 4 capaz de ejecutar juegos Arcade, Neo Geo, CPS1, CPS2, CPS3 y diversas consolas clásicas.",
+
+  website: "https://github.com/Cpasjuste/pemu",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/HUxT3agT#JRFqqBfaEEvjn9x3mTO5eA",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Cpasjuste/pemu/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar múltiples sistemas arcade y consolas clásicas desde una única aplicación.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      Arcade: "✅ Compatible",
+      NeoGeo: "✅ Compatible",
+      CPS1: "✅ Compatible",
+      CPS2: "✅ Compatible",
+      CPS3: "✅ Compatible",
+      MegaDrive: "✅ Compatible",
+      MasterSystem: "✅ Compatible",
+      GameGear: "✅ Compatible",
+      PCEngine: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "pFBN Neo",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar pFBN Neo.",
+    ],
+
+    usage:
+      "Permite cargar juegos de múltiples plataformas arcade y consolas retro desde una interfaz unificada.",
+
+    notes:
+      "Incluye opciones de configuración accesibles desde el menú interno del emulador. 【1-919ef5】",
+
+    version: "Actual",
+    author: "pEMU Team",
+
+    details: [
+      {
+        title: "Sistemas Arcade",
+        description:
+          "Plataformas compatibles.",
+
+        items: [
+          "Neo Geo",
+          "CPS1",
+          "CPS2",
+          "CPS3",
+          "Arcade",
+        ],
+      },
+
+      {
+        title: "Consolas Compatibles",
+        description:
+          "Sistemas soportados.",
+
+        items: [
+          "Mega Drive",
+          "Master System",
+          "Game Gear",
+          "PC Engine",
+        ],
+      },
+
+      {
+        title: "Biblioteca de Juegos",
+        description:
+          "Selección de títulos.",
+
+        items: [
+          "Listado automático.",
+          "Selección rápida.",
+          "Carga inmediata.",
+          "Organización sencilla.",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Opciones del emulador.",
+
+        items: [
+          "Menú de ajustes.",
+          "Botón R1.",
+          "Opciones gráficas.",
+          "Configuración personalizada.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de usuario.",
+
+        items: [
+          "Navegación sencilla.",
+          "Diseño ligero.",
+          "Acceso rápido.",
+          "Multisistema.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Multiplataforma.",
+          "Compatible con GoldHEN.",
+          "Gran cantidad de sistemas.",
+          "Interfaz unificada.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros emuladores recomendados.",
+
+        items: [
+          "pNES",
+          "pSNES",
+          "RetroArch",
+          "Batocera PS4",
+          "Linux en PS4",
+        ],
+      },
+    ],
+  },
+},
+// pGEN
+{
+  console: "PS4",
+  name: "pGEN",
+  image: "img/PS4/pgen.jpg",
+
+  description:
+    "Emulador para PlayStation 4 basado en Genesis Plus GX que permite ejecutar juegos clásicos de Sega Mega Drive y Sega Genesis.",
+
+  website: "https://github.com/Cpasjuste/pemu",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/LRA3wCzZ#KbqB5tygfnVuwzIgCUuEZw",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Cpasjuste/pemu/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar juegos de Sega Mega Drive y Sega Genesis directamente desde PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      MegaDrive: "✅ Compatible",
+      Genesis: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "pGEN",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar pGEN.",
+    ],
+
+    usage:
+      "Permite cargar juegos de Mega Drive desde una interfaz ligera adaptada a PS4.",
+
+    notes:
+      "Incluye opciones de configuración accesibles desde el menú interno del emulador. 【1-1af717】",
+
+    version: "Actual",
+    author: "pEMU Team",
+
+    details: [
+      {
+        title: "Sistema Compatible",
+        description:
+          "Consola emulada.",
+
+        items: [
+          "Sega Mega Drive",
+          "Sega Genesis",
+          "16 Bits",
+          "Retro Gaming",
+        ],
+      },
+
+      {
+        title: "Biblioteca de Juegos",
+        description:
+          "Selección de ROMs.",
+
+        items: [
+          "Listado de juegos.",
+          "Carga rápida.",
+          "Selección sencilla.",
+          "Acceso inmediato.",
+        ],
+      },
+
+      {
+        title: "Genesis Plus GX",
+        description:
+          "Motor de emulación.",
+
+        items: [
+          "Código abierto.",
+          "Alta compatibilidad.",
+          "Emulación estable.",
+          "Optimizado para PS4.",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Ajustes disponibles.",
+
+        items: [
+          "Botón R1.",
+          "Opciones gráficas.",
+          "Configuración de audio.",
+          "Ajustes personalizados.",
+        ],
+      },
+
+      {
+        title: "Controles",
+        description:
+          "Compatibilidad.",
+
+        items: [
+          "DualShock 4.",
+          "Control completo.",
+          "Mapeo integrado.",
+          "Navegación sencilla.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Compatible con GoldHEN.",
+          "Basado en Genesis Plus GX.",
+          "Interfaz ligera.",
+          "Configuración simple.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros emuladores recomendados.",
+
+        items: [
+          "pNES",
+          "pSNES",
+          "pFBN Neo",
+          "RetroArch",
+          "Batocera PS4",
+        ],
+      },
+    ],
+  },
+},
+// PICO-8
+{
+  console: "PS4",
+  name: "PICO-8",
+  image: "img/PS4/pico8.jpg",
+
+  description:
+    "Port de PICO-8 para PlayStation 4, una consola virtual diseñada para crear, compartir y jugar pequeños videojuegos indie.",
+
+  website: "https://github.com/voliva/ps4-p8",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/HUoCBDzK#BwSruE0_5HU6wlOqTvAf7A",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/voliva/ps4-p8/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar y disfrutar juegos desarrollados para la plataforma PICO-8 directamente desde PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PICO8: "✅ Compatible",
+      IndieGames: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "PICO-8",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar PICO-8.",
+    ],
+
+    usage:
+      "Permite acceder a una biblioteca de juegos PICO-8 desde una interfaz adaptada para PS4.",
+
+    notes:
+      "PICO-8 está orientado a juegos independientes y proyectos creados por la comunidad. 【1-fa24c1】",
+
+    version: "Actual",
+    author: "PICO-8 Community",
+
+    details: [
+      {
+        title: "¿Qué es PICO-8?",
+        description:
+          "Consola virtual.",
+
+        items: [
+          "Fantasy Console.",
+          "Juegos Indie.",
+          "Creación de juegos.",
+          "Comunidad activa.",
+        ],
+      },
+
+      {
+        title: "Biblioteca de Juegos",
+        description:
+          "Contenido disponible.",
+
+        items: [
+          "Juegos independientes.",
+          "Experiencias retro.",
+          "Catálogo variado.",
+          "Selección sencilla.",
+        ],
+      },
+
+      {
+        title: "Primer Inicio",
+        description:
+          "Acceso rápido.",
+
+        items: [
+          "Abrir PICO-8.",
+          "Explorar catálogo.",
+          "Seleccionar juego.",
+          "Comenzar a jugar.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de usuario.",
+
+        items: [
+          "Diseño minimalista.",
+          "Acceso rápido.",
+          "Navegación sencilla.",
+          "Optimizado para PS4.",
+        ],
+      },
+
+      {
+        title: "Juegos Indie",
+        description:
+          "Contenido principal.",
+
+        items: [
+          "Proyectos comunitarios.",
+          "Juegos experimentales.",
+          "Experiencias retro.",
+          "Catálogo en constante crecimiento.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Muy ligero.",
+          "Compatible con GoldHEN.",
+          "Gran comunidad.",
+          "Miles de juegos creados por usuarios.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros emuladores y sistemas.",
+
+        items: [
+          "pNES",
+          "pSNES",
+          "pGEN",
+          "pFBN Neo",
+          "RetroArch",
+        ],
+      },
+    ],
+  },
+},
+// SNESTicles
+{
+  console: "PS4",
+  name: "SNESTicles",
+  image: "img/PS4/snesticles.jpg",
+
+  description:
+    "Emulador de Super Nintendo para PlayStation 4 que permite ejecutar juegos SNES mediante una interfaz sencilla y ligera.",
+
+  website: "https://github.com/tmaul/SNESticle",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/eVg21RCZ#BvDQUHedChsy4-vBuxb7vA",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/tmaul/SNESticle/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar juegos clásicos de Super Nintendo directamente desde PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      SNES: "✅ Compatible",
+      RetroGaming: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "SNESTicles",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar SNESTicles.",
+    ],
+
+    usage:
+      "Permite seleccionar y ejecutar juegos de Super Nintendo desde una ruta específica de ROMs.",
+
+    notes:
+      "Las ROMs deben ubicarse en la carpeta SNES_ROMS para ser detectadas correctamente por el emulador. 【1-69d172】",
+
+    version: "Actual",
+    author: "SNESTicles Team",
+
+    details: [
+      {
+        title: "Sistema Compatible",
+        description:
+          "Consola emulada.",
+
+        items: [
+          "Super Nintendo",
+          "SNES",
+          "16 Bits",
+          "Retro Gaming",
+        ],
+      },
+
+      {
+        title: "Ubicación de ROMs",
+        description:
+          "Ruta utilizada por el emulador.",
+
+        items: [
+          "cdfs:/SNES_ROMS/",
+          "Carga manual.",
+          "Biblioteca personalizada.",
+          "Acceso directo.",
+        ],
+      },
+
+      {
+        title: "Selección de Juegos",
+        description:
+          "Carga de contenido.",
+
+        items: [
+          "Buscar ROM.",
+          "Seleccionar juego.",
+          "Iniciar emulación.",
+          "Carga rápida.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de uso.",
+
+        items: [
+          "Diseño ligero.",
+          "Navegación sencilla.",
+          "Acceso directo.",
+          "Uso intuitivo.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Uso principal.",
+
+        items: [
+          "Juegos SNES.",
+          "DualShock 4.",
+          "GoldHEN.",
+          "USB ExFAT.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Ligero.",
+          "Fácil configuración.",
+          "Compatible con GoldHEN.",
+          "Ideal para Super Nintendo.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros emuladores recomendados.",
+
+        items: [
+          "pSNES",
+          "pNES",
+          "pGEN",
+          "pFBN Neo",
+          "RetroArch",
+        ],
+      },
+    ],
+  },
+},
+// RetroArch
+{
+  console: "PS4",
+  name: "RetroArch Para PS4",
+  image: "img/PS4/retroarch.jpg",
+
+  description:
+    "Frontend de emulación para PlayStation 4 que permite ejecutar múltiples sistemas clásicos mediante cores compatibles desde una única aplicación.",
+
+  website: "https://www.retroarch.com/platforms.html",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/2dhFVQIJ#IBrx8LY1l0klzSylwzuu-Q",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar múltiples consolas retro desde una única interfaz mediante el sistema de cores de RetroArch.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      RetroGaming: "✅ Compatible",
+      USB: "✅ Compatible",
+      FTP: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "RetroArch",
+      "RetroArch Cores Installer",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Instalar RetroArch.",
+      "Instalar RetroArch Cores Installer.",
+      "Ejecutar Cores Installer.",
+      "Abrir RetroArch.",
+      "Esperar la creación de carpetas.",
+    ],
+
+    usage:
+      "Permite cargar distintos sistemas mediante cores y ejecutar juegos retro desde almacenamiento local o USB.",
+
+    notes:
+      "Durante el primer inicio se generan automáticamente los directorios necesarios para la configuración del sistema. 【1-986531】",
+
+    version: "Actual",
+    author: "Libretro Team",
+
+    details: [
+      {
+        title: "¿Qué es RetroArch?",
+        description:
+          "Frontend de emulación.",
+
+        items: [
+          "Sistema de cores.",
+          "Multiplataforma.",
+          "Código abierto.",
+          "Gran compatibilidad.",
+        ],
+      },
+
+      {
+        title: "Cores Installer",
+        description:
+          "Instalación inicial.",
+
+        items: [
+          "Instalar cores.",
+          "Preparar RetroArch.",
+          "Configuración automática.",
+          "Instalación recomendada.",
+        ],
+      },
+
+      {
+        title: "Online Updater",
+        description:
+          "Actualización interna.",
+
+        items: [
+          "Update Assets.",
+          "Actualizar recursos.",
+          "Mejorar compatibilidad.",
+          "Mantener sistema actualizado.",
+        ],
+      },
+
+      {
+        title: "Configuración USB",
+        description:
+          "Uso de juegos desde USB.",
+
+        items: [
+          "retroarch.cfg",
+          "/data/retroarch",
+          "FTP compatible",
+          "USB compatible",
+        ],
+      },
+
+      {
+        title: "Sistemas Compatibles",
+        description:
+          "Algunos de los sistemas disponibles.",
+
+        items: [
+          "NES",
+          "SNES",
+          "Mega Drive",
+          "Game Boy",
+          "Arcade",
+          "PlayStation",
+        ],
+      },
+
+      {
+        title: "Interfaz XMB",
+        description:
+          "Experiencia de usuario.",
+
+        items: [
+          "Menús intuitivos.",
+          "Configuración avanzada.",
+          "Accesos rápidos.",
+          "Personalización.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Todo en una sola aplicación.",
+          "Gran cantidad de sistemas.",
+          "Compatible con GoldHEN.",
+          "Actualizaciones constantes.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "Batocera PS4",
+          "pFBN Neo",
+          "pGEN",
+          "pSNES",
+          "pNES",
+        ],
+      },
+    ],
+  },
+},
+// MultiGAMES in 1
+{
+  console: "PS4",
+  name: "MultiGAMES in 1",
+  image: "img/PS4/multigames-in-1.jpg",
+
+  description:
+    "Colección retro para PlayStation 4 que reúne múltiples juegos y sistemas clásicos en una única aplicación lista para jugar.",
+
+  website: "https://x.com/m0ur0ne",
+
+  downloads: [
+    {
+      name: "Mirror Mediafire vol1",
+      url: "https://www.mediafire.com/file/tjrd31qsgr43eeb/MultiGAMESin1-vol1-PS4-PS5.pkg/file",
+    },
+    {
+      name: "Mirror Mediafire vol2",
+      url: "https://www.mediafire.com/file/7zim0js9d6nq3gi/MultiGAMESin1-vol2-PS4-PS5.pkg/file",
+    },
+    {
+      name: "Mirror Mediafire vol3",
+      url: "https://www.mediafire.com/file/7dqpaoryr4stku2/MultiGAMESin1-vol3-PS4-PS5.pkg/file",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite disfrutar de múltiples juegos retro desde una única aplicación sin necesidad de configurar varios emuladores por separado.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      RetroGaming: "✅ Compatible",
+      USB: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "MultiGAMES in 1",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar MultiGAMES in 1.",
+    ],
+
+    usage:
+      "Permite acceder rápidamente a una colección de juegos clásicos mediante una interfaz preconfigurada.",
+
+    notes:
+      "Ideal para usuarios que desean una experiencia retro inmediata sin realizar configuraciones adicionales.",
+
+    version: "Actual",
+    author: "m0ur0ne",
+
+    details: [
+      {
+        title: "Todo en Uno",
+        description:
+          "Experiencia retro simplificada.",
+
+        items: [
+          "Juegos preconfigurados.",
+          "Acceso rápido.",
+          "Interfaz unificada.",
+          "Listo para jugar.",
+        ],
+      },
+
+      {
+        title: "Retro Gaming",
+        description:
+          "Orientado a juegos clásicos.",
+
+        items: [
+          "Arcade.",
+          "8 Bits.",
+          "16 Bits.",
+          "Consolas clásicas.",
+        ],
+      },
+
+      {
+        title: "Biblioteca Integrada",
+        description:
+          "Colección de contenido.",
+
+        items: [
+          "Múltiples juegos.",
+          "Selección rápida.",
+          "Carga sencilla.",
+          "Acceso inmediato.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de usuario.",
+
+        items: [
+          "Menús intuitivos.",
+          "Navegación rápida.",
+          "Compatible con DualShock 4.",
+          "Diseño simplificado.",
+        ],
+      },
+
+      {
+        title: "Desarrollador",
+        description:
+          "Proyecto creado por.",
+
+        items: [
+          "m0ur0ne",
+          "PlayStation 4",
+          "Retro Gaming",
+          "Multisistema",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Fácil instalación.",
+          "Sin configuraciones complejas.",
+          "Compatible con GoldHEN.",
+          "Gran variedad de juegos.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "RetroArch",
+          "Batocera PS4",
+          "pFBN Neo",
+          "pGEN",
+          "pSNES",
+        ],
+      },
+    ],
+  },
+},
+// Dolphin PS4
+{
+  console: "PS4",
+  name: "Dolphin PS4",
+  image: "img/PS4/dolphin-ps4.jpg",
+
+  description:
+    "Port del emulador Dolphin para PlayStation 4 que permite ejecutar juegos de Nintendo GameCube y Nintendo Wii.",
+
+  website: "https://github.com/iHaiDeeZ/DolphinPS4",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/XJJwERDb#texVFtyg08o6wxkzSenpbA",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/iHaiDeeZ/DolphinPS4/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar juegos de Nintendo GameCube y Nintendo Wii directamente desde PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      GameCube: "✅ Compatible",
+      Wii: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Dolphin PS4",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir GoldHEN.",
+      "Entrar en Debug Settings.",
+      "Abrir Package Installer.",
+      "Instalar Dolphin PS4.",
+    ],
+
+    usage:
+      "Permite cargar juegos compatibles de GameCube y Wii desde almacenamiento interno o USB.",
+
+    notes:
+      "La compatibilidad y el rendimiento pueden variar dependiendo del juego y del modelo de consola.",
+
+    version: "Actual",
+    author: "iHaiDeeZ",
+
+    details: [
+      {
+        title: "Sistemas Compatibles",
+        description:
+          "Consolas soportadas por Dolphin.",
+
+        items: [
+          "Nintendo GameCube",
+          "Nintendo Wii",
+          "GameCube ISO",
+          "Wii ISO",
+        ],
+      },
+
+      {
+        title: "Ubicación de Juegos",
+        description:
+          "Rutas compatibles.",
+
+        items: [
+          "/data/DolphinPS4/games",
+          "USB:/DolphinPS4/games",
+        ],
+      },
+
+      {
+        title: "Almacenamiento Interno",
+        description:
+          "Instalación local.",
+
+        items: [
+          "/data/DolphinPS4/games",
+          "Carga directa.",
+          "Mayor estabilidad.",
+          "Acceso rápido.",
+        ],
+      },
+
+      {
+        title: "Almacenamiento USB",
+        description:
+          "Ejecución externa.",
+
+        items: [
+          "USB:/DolphinPS4/games",
+          "Compatible con ExFAT.",
+          "Fácil administración.",
+          "Mayor capacidad.",
+        ],
+      },
+
+      {
+        title: "Biblioteca de Juegos",
+        description:
+          "Gestión de títulos.",
+
+        items: [
+          "Detección automática.",
+          "Listado de juegos.",
+          "Acceso rápido.",
+          "Selección sencilla.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Información general.",
+
+        items: [
+          "GameCube.",
+          "Wii.",
+          "DualShock 4.",
+          "GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Emulación GameCube.",
+          "Emulación Wii.",
+          "Compatible con USB.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "RetroArch",
+          "Batocera PS4",
+          "pFBN Neo",
+          "pGEN",
+          "pSNES",
+        ],
+      },
+    ],
+  },
+},
 ];

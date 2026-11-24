@@ -3516,7 +3516,7 @@ const ps3Apps = [
   // RetroArch
   {
     console: "PS3",
-    name: "RetroArch",
+    name: "RetroArch Para PS3",
     image: "img/PS3/retroarch.jpg",
 
     description:

@@ -2285,7 +2285,7 @@ const pspApps = [
 {
     console: "PSP",
 
-    name: "RetroArch para PSP",
+    name: "RetroArch Para PSP",
 
     image: "img/PSP/RETROARCH.jpg",
 

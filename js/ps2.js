@@ -2936,7 +2936,7 @@ const ps2Apps = [
   {
     console: "PS2",
 
-    name: "RetroArch para PS2",
+    name: "RetroArch Para PS2",
 
     image: "img/PS2/RetroArchPS2.jpg",
 
