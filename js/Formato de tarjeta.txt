@@ -1,0 +1,95 @@
+{
+  console: "PS3",
+  name: "NOMBRE DEL TUTORIAL",
+  image: "img/PS3/nombre-tutorial.jpg",
+
+  description:
+    "Breve descripción de lo que permite realizar este tutorial.",
+
+  website: "https://www.youtube.com/watch?v=5YdZs3VC5BQ",
+
+  downloads: [
+    {
+      name: "GitHub Releases",
+      url: "TU_LINK_github",
+    },
+    {
+      name: "MEGA",
+      url: "TU_LINK_MEGA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Objetivo principal del tutorial.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Archivos necesarios",
+      "Aplicaciones necesarias",
+    ],
+
+    installation: [
+      "Paso 1",
+      "Paso 2",
+      "Paso 3",
+      "Paso 4",
+    ],
+
+    usage:
+      "Resumen rápido de la guía.",
+
+    notes:
+      "Información adicional importante.",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Preparación",
+        description: "Archivos necesarios.",
+        items: [
+          "Descargar archivos.",
+          "Extraer contenido.",
+          "Preparar USB.",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description: "Primeros pasos.",
+        items: [
+          "Abrir aplicación.",
+          "Configurar opciones.",
+          "Verificar funcionamiento.",
+        ],
+      },
+
+      {
+        title: "Proceso",
+        description: "Realizar la modificación.",
+        items: [
+          "Seguir pasos.",
+          "Aplicar cambios.",
+          "Guardar configuración.",
+        ],
+      },
+
+      {
+        title: "Resultado",
+        description: "Comprobación.",
+        items: [
+          "Verificar instalación.",
+          "Comprobar funcionamiento.",
+          "Disfrutar la modificación.",
+        ],
+      },
+    ],
+  },
+},
