@@ -6353,4 +6353,648 @@ const ps4Apps = [
     ],
   },
 },
+// R2RETRO
+{
+  console: "PS4",
+  name: "R2RETRO",
+  image: "img/PS4/r2retro.png",
+
+  description:
+    "Frontend de emulación para PlayStation 4 que permite ejecutar juegos de Nintendo 64, Game Boy, Game Boy Color, Game Boy Advance, NES y SNES desde una única interfaz.",
+
+  website: "https://github.com/R2two/R2RETRO",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/LUoE0a7L#W4gPixCtkHFdoT8F0Ka2Dw",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/R2two/R2RETRO/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite organizar y ejecutar múltiples sistemas clásicos desde una única aplicación optimizada para PS4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      N64: "✅ Compatible",
+      GB: "✅ Compatible",
+      GBC: "✅ Compatible",
+      GBA: "✅ Compatible",
+      NES: "✅ Compatible",
+      SNES: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "R2RETRO",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Instalar desde Package Installer.",
+      "Ejecutar R2RETRO.",
+      "Crear la estructura de carpetas para las ROMs.",
+    ],
+
+    usage:
+      "Permite cargar juegos retro desde USB o almacenamiento interno mediante una biblioteca unificada.",
+
+    notes:
+      "Las ROMs deben colocarse en la estructura de carpetas compatible para que sean detectadas automáticamente. 【1-ab2eb8】",
+
+    version: "Actual",
+    author: "R2two",
+
+    details: [
+      {
+        title: "Sistemas Compatibles",
+        description:
+          "Plataformas soportadas.",
+
+        items: [
+          "Nintendo 64",
+          "Game Boy",
+          "Game Boy Color",
+          "Game Boy Advance",
+          "NES",
+          "SNES",
+        ],
+      },
+
+      {
+        title: "Prueba Inicial",
+        description:
+          "Verificar funcionamiento.",
+
+        items: [
+          "Abrir Acerca de.",
+          "Seleccionar Prueba Nintendo 64.",
+          "Comprobar la instalación.",
+        ],
+      },
+
+      {
+        title: "Ubicación de ROMs",
+        description:
+          "Ruta interna.",
+
+        items: [
+          "/data/R2N64/roms/",
+          "Detección automática.",
+          "Organización por sistema.",
+        ],
+      },
+
+      {
+        title: "Ubicación USB",
+        description:
+          "Ruta recomendada.",
+
+        items: [
+          "R2N64/roms/n64/",
+          "R2N64/roms/gb/",
+          "R2N64/roms/gbc/",
+          "R2N64/roms/gba/",
+          "R2N64/roms/nes/",
+          "R2N64/roms/snes/",
+        ],
+      },
+
+      {
+        title: "Biblioteca",
+        description:
+          "Gestión de juegos.",
+
+        items: [
+          "TRIÁNGULO buscar juegos.",
+          "X ver detalles.",
+          "X iniciar juego.",
+          "Biblioteca integrada.",
+        ],
+      },
+
+      {
+        title: "Nintendo 64",
+        description:
+          "Sistema principal.",
+
+        items: [
+          "Emulación N64.",
+          "Biblioteca integrada.",
+          "Carga rápida.",
+          "Compatible con DualShock 4.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Multisistema.",
+          "Interfaz moderna.",
+          "Compatible con GoldHEN.",
+          "Organización automática.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "RetroArch",
+          "Batocera PS4",
+          "Dolphin PS4",
+          "pFBN Neo",
+          "MultiGAMES in 1",
+        ],
+      },
+    ],
+  },
+},
+// Crema
+{
+  console: "PS4",
+  name: "Crema",
+  image: "img/PS4/crema.jpg",
+
+  description:
+    "Frontend para PlayStation 4 diseñado para gestionar y ejecutar juegos compatibles con CemuPS4, ofreciendo una interfaz optimizada para Wii U.",
+
+  website: "https://github.com/iHaiDeeZ/Crema",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/LMQyDDLR#wQZqjAuG9C_1b-EjPmzyXw",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/iHaiDeeZ/Crema/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite administrar bibliotecas de juegos compatibles con CemuPS4 y mejorar la experiencia de uso mediante una interfaz dedicada.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      WiiU: "✅ Compatible",
+      CemuPS4: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Crema",
+      "CemuPS4",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Instalar Crema.",
+      "Preparar la carpeta de juegos.",
+      "Copiar los títulos compatibles.",
+      "Iniciar la aplicación.",
+    ],
+
+    usage:
+      "Permite organizar y lanzar juegos compatibles con CemuPS4 desde una interfaz unificada.",
+
+    notes:
+      "Puede utilizar cachés de sombreadores para mejorar la experiencia en juegos compatibles. 【1-2c13e4】",
+
+    version: "Actual",
+    author: "iHaiDeeZ",
+
+    details: [
+      {
+        title: "Sistema Compatible",
+        description:
+          "Plataforma principal.",
+
+        items: [
+          "Nintendo Wii U",
+          "CemuPS4",
+          "GoldHEN",
+          "PlayStation 4",
+        ],
+      },
+
+      {
+        title: "Ubicación de Juegos",
+        description:
+          "Directorios compatibles.",
+
+        items: [
+          "/data/CemuPS4/games",
+          "usb0/CemuPS4/games",
+        ],
+      },
+
+      {
+        title: "Shaders Cache",
+        description:
+          "Caché de sombreadores.",
+
+        items: [
+          "shaders.zip",
+          "/data/crema/cache/shaders/transferable",
+          "Cemu 1.25",
+          "Cemu 1.26",
+          "Cemu 2.x",
+        ],
+      },
+
+      {
+        title: "Biblioteca",
+        description:
+          "Gestión de juegos.",
+
+        items: [
+          "Detección automática.",
+          "Acceso rápido.",
+          "Organización sencilla.",
+          "Lanzamiento directo.",
+        ],
+      },
+
+      {
+        title: "Almacenamiento",
+        description:
+          "Métodos compatibles.",
+
+        items: [
+          "Disco interno.",
+          "USB ExFAT.",
+          "Biblioteca local.",
+          "Carga rápida.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Integración con CemuPS4.",
+          "Compatible con Wii U.",
+          "Interfaz moderna.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "Dolphin PS4",
+          "RetroArch",
+          "Batocera PS4",
+          "R2RETRO",
+          "pFBN Neo",
+        ],
+      },
+    ],
+  },
+},
+// PS4SX2
+{
+  console: "PS4",
+  name: "PS4SX2",
+  image: "img/PS4/ps4sx2.jpg",
+
+  description:
+    "Emulador de PlayStation 2 para PlayStation 4 basado en PCSX2, diseñado para ejecutar juegos PS2 desde almacenamiento interno.",
+
+  website: "https://github.com/Phoenixx1202/PS4SX2",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/3No2RDTB#sMmglX08EUGmrS6wRy5p8A",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Phoenixx1202/PS4SX2/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite ejecutar juegos de PlayStation 2 directamente desde PlayStation 4 mediante una interfaz optimizada para consola.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PS2: "✅ Compatible",
+      BIOS: "✅ Requerido",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "PS4SX2",
+      "BIOS de PlayStation 2",
+      "Juegos compatibles",
+    ],
+
+    installation: [
+      "Instalar PS4SX2.",
+      "Copiar la BIOS requerida.",
+      "Copiar los juegos compatibles.",
+      "Agregar carátulas opcionales.",
+      "Abrir la aplicación.",
+    ],
+
+    usage:
+      "Permite organizar y ejecutar juegos de PlayStation 2 desde una biblioteca integrada.",
+
+    notes:
+      "Para una mejor experiencia se recomienda configurar correctamente BIOS, carátulas y biblioteca de juegos. 【1-d09956】",
+
+    version: "Actual",
+    author: "Phoenixx1202",
+
+    details: [
+      {
+        title: "Sistema Compatible",
+        description:
+          "Consola emulada.",
+
+        items: [
+          "PlayStation 2",
+          "PS2",
+          "Retro Gaming",
+          "Biblioteca integrada",
+        ],
+      },
+
+      {
+        title: "Ubicación de Juegos",
+        description:
+          "Ruta utilizada por el emulador.",
+
+        items: [
+          "/data/PS4SX2/roms",
+          "Detección automática",
+          "Biblioteca local",
+        ],
+      },
+
+      {
+        title: "Ubicación BIOS",
+        description:
+          "Archivos requeridos.",
+
+        items: [
+          "/data/PS4SX2/bios",
+          "Carga automática",
+          "Configuración inicial",
+        ],
+      },
+
+      {
+        title: "Carátulas",
+        description:
+          "Biblioteca visual.",
+
+        items: [
+          "/data/PS4SX2/covers",
+          "Carátulas personalizadas",
+          "Identificación rápida",
+          "Biblioteca organizada",
+        ],
+      },
+
+      {
+        title: "Biblioteca de Juegos",
+        description:
+          "Gestión integrada.",
+
+        items: [
+          "Listado automático.",
+          "Acceso rápido.",
+          "Navegación sencilla.",
+          "Carga directa.",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de usuario.",
+
+        items: [
+          "Diseño optimizado.",
+          "Compatible con DualShock 4.",
+          "Biblioteca visual.",
+          "Acceso directo.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Emulación PlayStation 2.",
+          "Biblioteca integrada.",
+          "Compatible con GoldHEN.",
+          "Soporte para carátulas.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "RetroArch",
+          "Batocera PS4",
+          "Dolphin PS4",
+          "R2RETRO",
+          "pFBN Neo",
+        ],
+      },
+    ],
+  },
+},
+// HENkaku PS4
+{
+  console: "PS4",
+  name: "HENkaku PS4",
+  image: "img/PS4/henkaku-ps4.jpg",
+
+  description:
+    "Aplicación para PlayStation 4 que permite ejecutar un entorno basado en PS Vita y administrar juegos compatibles directamente desde la consola.",
+
+  website: "https://github.com/iHaiDeeZ/HENkaku-PS4",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/yQZQnR5T#RFrSLyhuQww1G3Cr5fJjZg",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/iHaiDeeZ/HENkaku-PS4/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite preparar un entorno PS Vita dentro de PS4 para ejecutar aplicaciones y juegos compatibles.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PSVita: "✅ Compatible",
+      Homebrew: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "HENkaku PS4",
+      "PSP2UPDAT.PUP",
+      "PSVUPDAT.PUP",
+    ],
+
+    installation: [
+      "Instalar HENkaku PS4.",
+      "Copiar los archivos requeridos.",
+      "Abrir la aplicación.",
+      "Completar la instalación inicial.",
+    ],
+
+    usage:
+      "Permite instalar los archivos necesarios y ejecutar juegos compatibles desde la biblioteca integrada.",
+
+    notes:
+      "La primera ejecución puede tardar mientras se generan los accesos y se prepara la biblioteca de juegos. 【1-a0b2e8】",
+
+    version: "Actual",
+    author: "iHaiDeeZ",
+
+    details: [
+      {
+        title: "Archivos Requeridos",
+        description:
+          "Instalación inicial.",
+
+        items: [
+          "PSP2UPDAT.PUP",
+          "PSVUPDAT.PUP",
+          "Instalación obligatoria",
+          "Preparación inicial",
+        ],
+      },
+
+      {
+        title: "Ruta de Instalación",
+        description:
+          "Ubicación de archivos.",
+
+        items: [
+          "/data/HENkaku/install",
+          "PSP2UPDAT.PUP",
+          "PSVUPDAT.PUP",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Orden recomendado.",
+
+        items: [
+          "Instalar PSP2UPDAT.PUP",
+          "Instalar PSVUPDAT.PUP",
+          "Cerrar aplicación",
+          "Reiniciar entorno",
+        ],
+      },
+
+      {
+        title: "Ubicación de Juegos",
+        description:
+          "Biblioteca principal.",
+
+        items: [
+          "/data/HENkaku/fs/ux0/app",
+          "Copiar juegos",
+          "Actualizar biblioteca",
+          "Detectar contenido",
+        ],
+      },
+
+      {
+        title: "Primer Inicio",
+        description:
+          "Carga inicial.",
+
+        items: [
+          "Abrir burbujas.",
+          "Generar accesos.",
+          "Esperar primera carga.",
+          "Iniciar juegos.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Entorno emulado.",
+
+        items: [
+          "PS Vita.",
+          "Aplicaciones compatibles.",
+          "Homebrew.",
+          "Biblioteca integrada.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Entorno PS Vita.",
+          "Biblioteca visual.",
+          "Compatible con GoldHEN.",
+          "Instalación sencilla.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "PS4SX2",
+          "Dolphin PS4",
+          "Crema",
+          "RetroArch",
+          "Batocera PS4",
+        ],
+      },
+    ],
+  },
+},
 ];
