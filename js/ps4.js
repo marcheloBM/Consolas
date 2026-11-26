@@ -4288,23 +4288,23 @@ const ps4Apps = [
       },
 
       {
-  title: "Aplicaciones De Plataformas",
-  description:
-    "Servicios incluidos en el paquete.",
+        title: "Aplicaciones De Plataformas",
+        description:
+          "Servicios incluidos en el paquete.",
 
-  items: [
-    "Amazon Prime Video",
-    "Netflix",
-    "Crunchyroll",
-    "Plex",
-    "YouTube",
-    "Pluto TV",
-    "Hulu",
-    "WiiMC",
-    "PS4 Media Player",
-    "PS4 Player",
-  ],
-},
+        items: [
+          "Amazon Prime Video",
+          "Netflix",
+          "Crunchyroll",
+          "Plex",
+          "YouTube",
+          "Pluto TV",
+          "Hulu",
+          "WiiMC",
+          "PS4 Media Player",
+          "PS4 Player",
+        ],
+      },
 
       {
         title: "Multimedia",
@@ -6997,4 +6997,2659 @@ const ps4Apps = [
     ],
   },
 },
+// Crear Avatar
+{
+  console: "PS4",
+  name: "Crear Avatar",
+  image: "img/PS4/crear-avatar.jpg",
+
+  description:
+    "Guía para crear e instalar avatares personalizados en PlayStation 4 de forma offline, sin necesidad de iniciar sesión en PSN.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/DR4WQKbT#5XkSIMYG_FzU6SrxrPAy3g",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear archivos de avatar personalizados e instalarlos en perfiles locales de PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Offline: "✅ Compatible",
+      PSN: "❌ No requerido",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "PS4 Xplorer",
+      "PC con Windows",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar las herramientas.",
+      "Crear el avatar personalizado.",
+      "Exportar archivo .xavatar.",
+      "Copiar al USB.",
+      "Instalar desde PS4 Xplorer.",
+    ],
+
+    usage:
+      "Permite personalizar la imagen de perfil de usuarios locales mediante avatares personalizados.",
+
+    notes:
+      "Las imágenes cuadradas ofrecen los mejores resultados para generar avatares personalizados. 【1-89dfa3】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Método Automático",
+        description:
+          "Creación mediante PS4 Avatar Maker.",
+
+        items: [
+          "PS4 Avatar Maker - Lapy",
+          "Export Avatar",
+          "Generar archivo .xavatar",
+          "Instalación sencilla",
+        ],
+      },
+
+      {
+        title: "Instalación en PS4",
+        description:
+          "Aplicar avatar creado.",
+
+        items: [
+          "Copiar a USB.",
+          "Abrir PS4 Xplorer.",
+          "Seleccionar usuario.",
+          "Instalar avatar.",
+        ],
+      },
+
+      {
+        title: "Método Manual",
+        description:
+          "Creación personalizada.",
+
+        items: [
+          "Editar imágenes.",
+          "Modificar online.json.",
+          "Preparar archivos.",
+          "Transferir mediante FTP.",
+        ],
+      },
+
+      {
+        title: "Resoluciones",
+        description:
+          "Archivos utilizados.",
+
+        items: [
+          "avatar64.dds",
+          "avatar128.dds",
+          "avatar260.dds",
+          "avatar440.dds",
+        ],
+      },
+
+      {
+        title: "Imagen Principal",
+        description:
+          "Avatar principal.",
+
+        items: [
+          "Avatar.png",
+          "440x400 píxeles",
+          "Imagen cuadrada recomendada",
+        ],
+      },
+
+      {
+        title: "Ubicación Manual",
+        description:
+          "Ruta para FTP.",
+
+        items: [
+          "/system_data/priv/cache/profile",
+          "Transferencia FTP",
+          "Aplicación manual",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Sin PSN.",
+          "Totalmente offline.",
+          "Avatares personalizados.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas de personalización.",
+
+        items: [
+          "Avatar Changer",
+          "Icon Mask",
+          "PS4 Xplorer",
+          "GoldHEN",
+        ],
+      },
+    ],
+  },
+},
+// Sega Saturn FPKG
+{
+  console: "PS4",
+  name: "Sega Saturn FPKG",
+  image: "img/PS4/sega-saturn-fpkg.jpg",
+
+  description:
+    "Guía para convertir juegos de Sega Saturn a formato FPKG e instalarlos directamente en PlayStation 4.",
+
+  website: "https://www.psx-place.com/threads/update-v1-2-saturn-fpkg-convert-saturn-games-into-ps4-fpkgs.36031/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aMQUDBjT#t8kcfOAYpjZzOIKqbP5dZA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite convertir juegos de Sega Saturn en paquetes FPKG compatibles con PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      SegaSaturn: "✅ Compatible",
+      FPKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "SATURN-FPKG",
+      "Juego Sega Saturn",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar SATURN-FPKG.",
+      "Preparar las imágenes del juego.",
+      "Crear el paquete FPKG.",
+      "Copiar el PKG al USB.",
+      "Instalar en PS4.",
+    ],
+
+    usage:
+      "Permite generar paquetes instalables para ejecutar juegos de Sega Saturn desde el menú principal de PS4.",
+
+    notes:
+      "Cada juego debe utilizar un NP Title único para evitar conflictos durante la instalación. 【1-5cd73a】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Herramienta Utilizada",
+        description:
+          "Conversión a FPKG.",
+
+        items: [
+          "SATURN-FPKG",
+          "Conversión automática",
+          "Compatible con PS4",
+          "Formato instalable",
+        ],
+      },
+
+      {
+        title: "Imágenes Requeridas",
+        description:
+          "Material gráfico.",
+
+        items: [
+          "icon0.png",
+          "512x512 píxeles",
+          "pic1.png",
+          "1920x1080 píxeles",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Preparación del proyecto.",
+
+        items: [
+          "Seleccionar juego.",
+          "Verificar NP Title.",
+          "Agregar icono.",
+          "Agregar splash.",
+        ],
+      },
+
+      {
+        title: "Generar FPKG",
+        description:
+          "Creación del paquete.",
+
+        items: [
+          "Create fPKG",
+          "Guardar PKG",
+          "Esperar confirmación",
+          "Instalación posterior",
+        ],
+      },
+
+      {
+        title: "Instalación en PS4",
+        description:
+          "Proceso final.",
+
+        items: [
+          "USB ExFAT",
+          "Package Installer",
+          "Instalar PKG",
+          "Ejecutar juego",
+        ],
+      },
+
+      {
+        title: "Sistema Compatible",
+        description:
+          "Plataforma soportada.",
+
+        items: [
+          "Sega Saturn",
+          "32 Bits",
+          "Retro Gaming",
+          "Compatible con PS4",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Instalación directa.",
+          "Integración con PS4.",
+          "Biblioteca personalizada.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Otros sistemas de emulación.",
+
+        items: [
+          "RetroArch",
+          "Batocera PS4",
+          "PS4SX2",
+          "Dolphin PS4",
+          "pFBN Neo",
+        ],
+      },
+    ],
+  },
+},
+// Crear Tus Propios Trucos
+{
+  console: "PS4",
+  name: "Crear Tus Propios Trucos",
+  image: "img/PS4/crear-trucos.jpg",
+
+  description:
+    "Guía para crear cheats personalizados en PlayStation 4 utilizando PS4debug y herramientas de búsqueda de memoria desde un PC.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/LA4RkbAJ#6uSdFAdu7-GUXknH9q-6uA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear archivos de trucos personalizados para juegos de PS4 mediante análisis y edición de memoria.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4debug: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Cheats: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "PS4debug",
+      "PC con Windows",
+      "PS4 Games Reaper",
+    ],
+
+    installation: [
+      "Activar PS4debug.",
+      "Anotar la IP de la consola.",
+      "Abrir el juego a modificar.",
+      "Ejecutar PS4 Games Reaper.",
+      "Conectar con la PS4.",
+    ],
+
+    usage:
+      "Permite localizar valores en memoria y convertirlos en cheats reutilizables para otros usuarios.",
+
+    notes:
+      "Es recomendable realizar pruebas en varios momentos del juego para localizar correctamente los valores buscados. 【1-b45679】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Herramienta Utilizada",
+        description:
+          "Software principal.",
+
+        items: [
+          "PS4 Games Reaper",
+          "PS4debug",
+          "Análisis de memoria",
+          "Creación de cheats",
+        ],
+      },
+
+      {
+        title: "Conectar con PS4",
+        description:
+          "Preparación inicial.",
+
+        items: [
+          "Activar PS4debug.",
+          "Anotar IP.",
+          "Conectar desde PC.",
+          "Detectar juego abierto.",
+        ],
+      },
+
+      {
+        title: "Buscar Valores",
+        description:
+          "Escaneo de memoria.",
+
+        items: [
+          "First Scan",
+          "Next Scan",
+          "4 Bytes",
+          "Select All",
+        ],
+      },
+
+      {
+        title: "Editar Valores",
+        description:
+          "Modificar datos.",
+
+        items: [
+          "Value",
+          "Cambiar cantidad.",
+          "Probar resultado.",
+          "Verificar cambios.",
+        ],
+      },
+
+      {
+        title: "Bloquear Valor",
+        description:
+          "Cheat permanente.",
+
+        items: [
+          "Lock",
+          "Congelar valor",
+          "Mantener cantidad",
+          "Activación continua",
+        ],
+      },
+
+      {
+        title: "Guardar Cheat",
+        description:
+          "Compartir resultados.",
+
+        items: [
+          "Address",
+          "CHT Legacy",
+          "New Address",
+          "Guardar .cht",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Crear cheats propios.",
+          "Compatible con PS4debug.",
+          "Guardar archivos .cht.",
+          "Compartir con otros usuarios.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "GoldHEN Cheats Manager",
+          "PS4debug",
+          "GoldHEN",
+          "PS4 Toolset",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Enviar PKG a PS4
+{
+  console: "PS4",
+  name: "Enviar PKG a PS4",
+  image: "img/PS4/enviar-pkg-ps4.jpg",
+
+  description:
+    "Guía para transferir e instalar archivos PKG desde un PC a PlayStation 4 mediante la red local utilizando Remote PKG Sender.",
+
+  website: "https://github.com/Gkiokan/ps4-remote-pkg-sender",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/CI4jVQSb#rAUvb2zzjFwhJj24tFcOig",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Gkiokan/ps4-remote-pkg-sender/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite enviar e instalar archivos PKG desde un ordenador directamente a PlayStation 4 sin utilizar dispositivos USB.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      LAN: "✅ Compatible",
+      WiFi: "✅ Compatible",
+      PKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Remote PKG Installer",
+      "PS4 Remote PKG Sender",
+      "PC conectado a la misma red",
+    ],
+
+    installation: [
+      "Instalar Remote PKG Installer en PS4.",
+      "Instalar PS4 Remote PKG Sender en PC.",
+      "Configurar las direcciones IP.",
+      "Verificar la conexión.",
+      "Enviar los PKG a la consola.",
+    ],
+
+    usage:
+      "Permite instalar juegos, actualizaciones y aplicaciones directamente desde el PC mediante la red local.",
+
+    notes:
+      "Para archivos grandes se recomienda utilizar una conexión LAN cableada para mejorar la estabilidad de la transferencia. 【1-6d65b1】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Software Utilizado",
+        description:
+          "Herramientas necesarias.",
+
+        items: [
+          "Remote PKG Installer",
+          "PS4 Remote PKG Sender",
+          "Red local",
+          "GoldHEN",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Preparación inicial.",
+
+        items: [
+          "IP del PC.",
+          "IP de la PS4.",
+          "PKG Base Path.",
+          "Apply.",
+        ],
+      },
+
+      {
+        title: "Comprobaciones",
+        description:
+          "Verificación de conexión.",
+
+        items: [
+          "Check Server.",
+          "Check PS4.",
+          "Estado del servicio.",
+          "Validar comunicación.",
+        ],
+      },
+
+      {
+        title: "Biblioteca PKG",
+        description:
+          "Detección de contenido.",
+
+        items: [
+          "Scan sub directories.",
+          "Detectar PKG.",
+          "Organizar biblioteca.",
+          "Preparar envíos.",
+        ],
+      },
+
+      {
+        title: "Enviar PKG",
+        description:
+          "Transferencia a la consola.",
+
+        items: [
+          "Agregar a la cola.",
+          "Processing Center.",
+          "Iniciar envío.",
+          "Instalación automática.",
+        ],
+      },
+
+      {
+        title: "Instalación Automática",
+        description:
+          "Resultado final.",
+
+        items: [
+          "Transferencia directa.",
+          "Instalación automática.",
+          "Sin USB.",
+          "Gestión remota.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "No requiere USB.",
+          "Ideal para PKG grandes.",
+          "Compatible con GoldHEN.",
+          "Instalación remota.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Remote PKG Installer",
+          "ezRemote Client",
+          "PS4 Xplorer",
+          "GoldHEN",
+          "Homebrew Store",
+        ],
+      },
+    ],
+  },
+},
+// Duxas PS4 Patch Repackager
+{
+  console: "PS4",
+  name: "Duxas PS4 Patch Repackager",
+  image: "img/PS4/duxas-ps4-patch-repackager.jpg",
+
+  description:
+    "Herramienta para PlayStation 4 que permite reconstruir actualizaciones PKG y solucionar errores de instalación como CE-36434-0.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/uUpRlapL#TCLZb4qqMdg_U2h4rpAqMw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite recombinar un juego y su actualización para generar un nuevo PKG compatible con PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PKG: "✅ Compatible",
+      Patches: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "Juego PKG",
+      "Patch PKG",
+      "Duxas PS4 Patch Repackager",
+    ],
+
+    installation: [
+      "Descargar la herramienta.",
+      "Extraer los archivos.",
+      "Instalar dependencias necesarias.",
+      "Ejecutar Duxas PS4 Patch Repackager.",
+    ],
+
+    usage:
+      "Permite seleccionar el PKG del juego y el PKG del parche para generar un nuevo paquete corregido.",
+
+    notes:
+      "Algunos juegos pueden no procesarse correctamente y requerir diferentes versiones o pruebas adicionales. 【1-50a1cc】",
+
+    version: "Tutorial",
+    author: "Duxa",
+
+    details: [
+      {
+        title: "¿Qué Soluciona?",
+        description:
+          "Errores comunes.",
+
+        items: [
+          "CE-36434-0",
+          "Errores de actualización",
+          "Problemas de instalación",
+          "Parches incompatibles",
+        ],
+      },
+
+      {
+        title: "Archivos Necesarios",
+        description:
+          "Elementos requeridos.",
+
+        items: [
+          "Juego PKG",
+          "Patch PKG",
+          "Duxas Repackager",
+          "Dependencias",
+        ],
+      },
+
+      {
+        title: "Dependencias",
+        description:
+          "Archivos adicionales.",
+
+        items: [
+          "Carpeta Dependencies",
+          "README.txt",
+          "Instalación previa",
+          "Componentes requeridos",
+        ],
+      },
+
+      {
+        title: "Reconstrucción",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Seleccionar GAME.",
+          "Seleccionar PATCH.",
+          "Presionar GO.",
+          "Guardar resultado.",
+        ],
+      },
+
+      {
+        title: "Guardar PKG",
+        description:
+          "Recomendación.",
+
+        items: [
+          "Carpetas sin espacios.",
+          "Ruta sencilla.",
+          "Evitar errores.",
+          "Guardar resultado final.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Uso final.",
+
+        items: [
+          "Copiar PKG al USB.",
+          "Abrir Package Installer.",
+          "Instalar paquete.",
+          "Verificar funcionamiento.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Soluciona CE-36434-0.",
+          "Compatible con actualizaciones.",
+          "Proceso sencillo.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Patch Installer",
+          "Remote PKG Installer",
+          "Enviar PKG a PS4",
+          "PS4 Xplorer",
+          "GoldHEN",
+        ],
+      },
+    ],
+  },
+},
+// PARAM.SFO Editor
+{
+  console: "PS4",
+  name: "PARAM.SFO Editor",
+  image: "img/PS4/param-sfo-editor.jpg",
+
+  description:
+    "Herramienta para editar archivos PARAM.SFO y modificar información de juegos y aplicaciones de PlayStation.",
+
+  website: "https://github.com/xXxTheDarkprogramerxXx/PS3Tools",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/nd5zVL5B#FGrW1us2UIyvtVzwVpEqxQ",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/xXxTheDarkprogramerxXx/PS3Tools/releases/",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite analizar y modificar archivos PARAM.SFO utilizados por juegos y aplicaciones de PlayStation.",
+
+    compatibility: {
+      PS3: "✅ Compatible",
+      PSVita: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PARAMSFO: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "PARAM.SFO Editor",
+      "Archivo PARAM.SFO",
+    ],
+
+    installation: [
+      "Descargar PARAM.SFO Editor.",
+      "Extraer los archivos.",
+      "Ejecutar PARAM.SFO_Editor.exe.",
+      "Abrir el archivo PARAM.SFO.",
+    ],
+
+    usage:
+      "Permite visualizar y editar la información almacenada dentro de archivos PARAM.SFO.",
+
+    notes:
+      "Antes de modificar cualquier archivo se recomienda conservar una copia de seguridad del original. 【1-c96f29】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "¿Qué es PARAM.SFO?",
+        description:
+          "Archivo de configuración.",
+
+        items: [
+          "Información del juego.",
+          "Datos de la aplicación.",
+          "Configuración interna.",
+          "Metadatos.",
+        ],
+      },
+
+      {
+        title: "Sistemas Compatibles",
+        description:
+          "Plataformas soportadas.",
+
+        items: [
+          "PS3",
+          "PS Vita",
+          "PS4",
+          "Homebrew",
+        ],
+      },
+
+      {
+        title: "Abrir Archivo",
+        description:
+          "Carga de información.",
+
+        items: [
+          "Seleccionar PARAM.SFO.",
+          "Abrir archivo.",
+          "Leer información.",
+          "Visualizar parámetros.",
+        ],
+      },
+
+      {
+        title: "Información Disponible",
+        description:
+          "Datos editables.",
+
+        items: [
+          "Title ID",
+          "Nombre",
+          "Versión",
+          "Datos internos",
+        ],
+      },
+
+      {
+        title: "Modificar Parámetros",
+        description:
+          "Editar contenido.",
+
+        items: [
+          "Cambiar valores.",
+          "Editar información.",
+          "Modificar configuraciones.",
+          "Aplicar cambios.",
+        ],
+      },
+
+      {
+        title: "Guardar Cambios",
+        description:
+          "Exportación final.",
+
+        items: [
+          "Botón Save.",
+          "Guardar archivo.",
+          "Reemplazar PARAM.SFO.",
+          "Mantener respaldo.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Edición sencilla.",
+          "Compatible con PS3.",
+          "Compatible con PS Vita.",
+          "Compatible con PS4.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Duxas PS4 Patch Repackager",
+          "PS4 Toolset",
+          "PS4 Xplorer",
+          "GoldHEN",
+          "Patch Installer",
+        ],
+      },
+    ],
+  },
+},
+// Dump de Juegos PS4
+{
+  console: "PS4",
+  name: "Dump de Juegos PS4",
+  image: "img/PS4/dump-juegos-ps4.jpg",
+
+  description:
+    "Guía para realizar copias de seguridad de juegos de PlayStation 4 mediante Itemzflow, FTP Dump y herramientas de generación de PKG.",
+
+  website: null ,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/2MYViAbS#W5tzR01GP44eoU0tsDpmdg",
+    },
+    {
+      name: "Github ftpdump",
+      url: "https://github.com/hippie68/ftpdump",
+    },
+    {
+      name: "Github PS4-Fake-PKG-Tools-3.87",
+      url: "https://github.com/CyB1K/PS4-Fake-PKG-Tools-3.87",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear copias de seguridad de juegos físicos o instalados y convertirlos en paquetes instalables para PS4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      FTP: "✅ Compatible",
+      PKG: "✅ Compatible",
+      USB: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",    
+      "USB ExFAT",
+      "Itemzflow Game Manager",
+      "PS4 Fake PKG Tools",
+      "PC con Windows o Linux",
+    ],
+
+    installation: [
+      "Preparar el almacenamiento USB.",
+      "Seleccionar el método de dump.",
+      "Copiar el contenido del juego.",
+      "Generar el archivo GP4.",
+      "Crear el PKG final.",
+    ],
+
+    usage:
+      "Permite respaldar juegos y convertirlos a formato PKG para reinstalación o almacenamiento.",
+
+    notes:
+      "Algunos métodos requieren herramientas adicionales para reconstruir correctamente el PKG y verificar archivos de trofeos. 【1-3796b9】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Método Itemzflow",
+        description:
+          "Copiado desde la consola.",
+
+        items: [
+          "Disco original.",
+          "USB ExFAT.",
+          "Función Dump.",
+          "Proceso integrado.",
+        ],
+      },
+
+      {
+        title: "Método FTP Dump",
+        description:
+          "Transferencia por red.",
+
+        items: [
+          "FTP Payload.",
+          "Enable BinLoader.",
+          "ftpdump.",
+          "Linux o Windows.",
+        ],
+      },
+
+      {
+        title: "Método Game Dumper",
+        description:
+          "Payloads dedicados.",
+
+        items: [
+          "GAME-Dumper.",
+          "UPDATE-Dumper.",
+          "Dump automático.",
+          "Exportación USB.",
+        ],
+      },
+
+      {
+        title: "Creación GP4",
+        description:
+          "Preparación del proyecto.",
+
+        items: [
+          "gengp4_app",
+          "SAVE.GP4",
+          "Proyecto PKG",
+          "Verificación previa",
+        ],
+      },
+
+      {
+        title: "Orbis Pub Gen",
+        description:
+          "Creación del PKG.",
+
+        items: [
+          "orbis-pub-gen.exe",
+          "Open GP4",
+          "Build",
+          "Modifiable Package",
+        ],
+      },
+
+      {
+        title: "Trofeos",
+        description:
+          "Comprobación de archivos.",
+
+        items: [
+          "TROPHY.TRP",
+          "/user/trophy/conf",
+          "Verificación manual",
+          "Corrección de errores",
+        ],
+      },
+
+      {
+        title: "Herramientas Utilizadas",
+        description:
+          "Programas recomendados.",
+
+        items: [
+          "Itemzflow",
+          "PS4 Fake PKG Tools",
+          "ftpdump",
+          "Orbis Pub Gen",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Copias de seguridad.",
+          "Creación de PKG.",
+          "Compatible con GoldHEN.",
+          "Múltiples métodos disponibles.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Itemzflow Game Manager",
+          "PS4 Xplorer",
+          "Duxas PS4 Patch Repackager",
+          "PARAM.SFO Editor",
+          "GoldHEN",
+        ],
+      },
+    ],
+  },
+},
+// Crear Accesos Directos
+{
+  console: "PS4",
+  name: "Crear Accesos Directos",
+  image: "img/PS4/crear-accesos-directos.jpg",
+
+  description:
+    "Guía para crear accesos directos personalizados dentro del menú de notificaciones de PlayStation 4.",
+
+  website: "https://sqlitebrowser.org/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/DMBCzILQ#dGzMdVWS_jgAz8EJdY-FJg",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear accesos directos personalizados editando la base de datos de notificaciones de PS4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      FTP: "✅ Compatible",
+      SQLite: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "FTP Server",
+      "DB Browser for SQLite",
+      "PC con Windows",
+    ],
+
+    installation: [
+      "Activar FTP en la consola.",
+      "Copiar notification.db al PC.",
+      "Instalar DB Browser for SQLite.",
+      "Editar los accesos personalizados.",
+      "Reemplazar el archivo modificado.",
+    ],
+
+    usage:
+      "Permite crear accesos directos personalizados para abrir enlaces y servicios desde el panel de notificaciones.",
+
+    notes:
+      "Se recomienda guardar una copia de seguridad de notification.db antes de realizar modificaciones. 【1-6bda89】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Archivo Utilizado",
+        description:
+          "Base de datos principal.",
+
+        items: [
+          "notification.db",
+          "SQLite",
+          "Base de datos PS4",
+          "Personalización",
+        ],
+      },
+
+      {
+        title: "Ubicación del Archivo",
+        description:
+          "Ruta dentro de PS4.",
+
+        items: [
+          "/system_data/priv/mms",
+          "notification.db",
+          "Acceso mediante FTP",
+          "Copia de seguridad",
+        ],
+      },
+
+      {
+        title: "DB Browser",
+        description:
+          "Herramienta utilizada.",
+
+        items: [
+          "Abrir base de datos.",
+          "Editar registros.",
+          "Guardar cambios.",
+          "Exportar modificaciones.",
+        ],
+      },
+
+      {
+        title: "Título Personalizado",
+        description:
+          "Nombre del acceso directo.",
+
+        items: [
+          "Campo subject.",
+          "Texto personalizado.",
+          "Nombre visible.",
+          "Acceso identificado.",
+        ],
+      },
+
+      {
+        title: "Icono Personalizado",
+        description:
+          "Imagen del acceso.",
+
+        items: [
+          "Campo title_icon.",
+          "PNG 512x512.",
+          "URL de imagen.",
+          "Icono personalizado.",
+        ],
+      },
+
+      {
+        title: "Enlace de Destino",
+        description:
+          "Acción del acceso.",
+
+        items: [
+          "Campo action_uri.",
+          "Página web.",
+          "Servicio online.",
+          "Acceso directo.",
+        ],
+      },
+
+      {
+        title: "Guardar Cambios",
+        description:
+          "Aplicación final.",
+
+        items: [
+          "Guardar base de datos.",
+          "Subir mediante FTP.",
+          "Reemplazar archivo.",
+          "Revisar notificaciones.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Totalmente personalizable.",
+          "Acceso rápido.",
+          "Compatible con GoldHEN.",
+          "Integración con notificaciones.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Notification Shortcuts",
+          "Avatar Changer",
+          "PS4 Xplorer",
+          "ezRemote Client",
+          "GoldHEN",
+        ],
+      },
+    ],
+  },
+},
+// Crear Juegos PS1 y PSP
+{
+  console: "PS4",
+  name: "Crear Juegos PS1 y PSP",
+  image: "img/PS4/crear-ps1-psp.jpg",
+
+  description:
+    "Guía para convertir juegos de PlayStation 1 y PSP a formato FPKG e instalarlos directamente en PlayStation 4.",
+
+  website: "https://github.com/John-K/pspdecrypt/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/LIZRjazC#Y3j6zVdm7zgjx6LW_cqL6Q",
+    },
+    {
+      name: "logic-sunrise.com",
+      url: "https://www.logic-sunrise.com/news-1162226-ps4-psx-2-ps4-v10-vos-iso-ps1-sur-ps4.html",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/John-K/pspdecrypt/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear paquetes instalables de juegos PS1 y PSP compatibles con PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS1: "✅ Compatible",
+      PSP: "✅ Compatible",
+      FPKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "Herramientas PS1 y PSP",
+      "Juego PS1 o PSP",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar las herramientas.",
+      "Preparar el juego de origen.",
+      "Crear el paquete FPKG.",
+      "Copiar al USB.",
+      "Instalar en la consola.",
+    ],
+
+    usage:
+      "Permite transformar juegos clásicos en aplicaciones instalables para PS4.",
+
+    notes:
+      "Los juegos de PS1 suelen tener una compatibilidad superior a los juegos de PSP según la guía original. 【1-ddee40】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Compatibilidad",
+        description:
+          "Sistemas soportados.",
+
+        items: [
+          "PlayStation 1",
+          "PlayStation Portable",
+          "FPKG",
+          "PS4",
+        ],
+      },
+
+      {
+        title: "Juegos PSP",
+        description:
+          "Conversión sencilla.",
+
+        items: [
+          "ISO compatible",
+          "No compatible con CSO",
+          "Create fPKG",
+          "Instalación directa",
+        ],
+      },
+
+      {
+        title: "Juegos PS1",
+        description:
+          "Creación automática.",
+
+        items: [
+          "Menú por comandos",
+          "Proceso guiado",
+          "Generación automática",
+          "FPKG listo para instalar",
+        ],
+      },
+
+      {
+        title: "Herramientas Utilizadas",
+        description:
+          "Software principal.",
+
+        items: [
+          "pspdecrypt",
+          "PS1 Creator",
+          "Conversión FPKG",
+          "Generador automático",
+        ],
+      },
+
+      {
+        title: "Proceso PSP",
+        description:
+          "Pasos principales.",
+
+        items: [
+          "Seleccionar ISO",
+          "Configurar proyecto",
+          "Create fPKG",
+          "Guardar resultado",
+        ],
+      },
+
+      {
+        title: "Proceso PS1",
+        description:
+          "Pasos principales.",
+
+        items: [
+          "Copiar juego",
+          "Ejecutar script",
+          "Elegir opción 1",
+          "Generar paquete",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Instalación directa.",
+          "Biblioteca integrada.",
+          "Compatible con GoldHEN.",
+          "Mantiene formato PKG.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas de emulación.",
+
+        items: [
+          "RetroArch",
+          "PS4SX2",
+          "Sega Saturn FPKG",
+          "Batocera PS4",
+          "MultiGAMES in 1",
+        ],
+      },
+    ],
+  },
+},
+// Remote Store
+{
+  console: "PS4",
+  name: "Remote Store",
+  image: "img/PS4/remote-store.jpg",
+
+  description:
+    "Guía para instalar juegos y aplicaciones PKG desde un servidor local utilizando Homebrew Store en PlayStation 4.",
+
+  website: "https://github.com/LightningMods/Store-CDN-Tool",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/DJgU2LiA#hwAQrNVUWyse4eEOdCqD-w",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/LightningMods/Store-CDN-Tool/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite servir archivos PKG desde un ordenador y mostrarlos directamente dentro de Homebrew Store para su instalación.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      HomebrewStore: "✅ Compatible",
+      LAN: "✅ Compatible",
+      PKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Homebrew Store",
+      "Store CDN Tool",
+      "PC conectado a la misma red",
+    ],
+
+    installation: [
+      "Instalar Homebrew Store.",
+      "Preparar Store CDN Tool.",
+      "Agregar archivos PKG.",
+      "Iniciar el servidor local.",
+      "Configurar Homebrew Store.",
+    ],
+
+    usage:
+      "Permite visualizar e instalar paquetes PKG almacenados en el ordenador directamente desde Homebrew Store.",
+
+    notes:
+      "Recuerda restaurar la URL original de Homebrew Store cuando finalices el uso del servidor local. 【1-48e41a】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Archivos Necesarios",
+        description:
+          "Preparación inicial.",
+
+        items: [
+          "homebrew.elf",
+          "homebrew.elf.sig",
+          "remote.md5",
+          "Store CDN Tool",
+        ],
+      },
+
+      {
+        title: "Servidor Local",
+        description:
+          "Configuración del PC.",
+
+        items: [
+          "Store CDN Tool.exe",
+          "IP del PC",
+          "Pkg Directory",
+          "Start WebServer",
+        ],
+      },
+
+      {
+        title: "Biblioteca PKG",
+        description:
+          "Agregar contenido.",
+
+        items: [
+          "Add Package",
+          "Detectar PKG",
+          "Catálogo local",
+          "Gestión automática",
+        ],
+      },
+
+      {
+        title: "Configuración PS4",
+        description:
+          "Preparación de Homebrew Store.",
+
+        items: [
+          "Configuración",
+          "Red de reparto",
+          "URL personalizada",
+          "Guardar cambios",
+        ],
+      },
+
+      {
+        title: "URL Original",
+        description:
+          "Restauración de la tienda.",
+
+        items: [
+          "http://api.pkg-zone.com",
+          "Configuración predeterminada",
+          "URL oficial",
+          "Restaurar cuando finalice",
+        ],
+      },
+
+      {
+        title: "Instalación de PKG",
+        description:
+          "Uso diario.",
+
+        items: [
+          "Abrir Homebrew Store",
+          "Ver catálogo local",
+          "Seleccionar contenido",
+          "Instalar PKG",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Sin USB.",
+          "Catálogo personalizado.",
+          "Compatible con GoldHEN.",
+          "Instalación por red.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Homebrew Store",
+          "Remote PKG Installer",
+          "Enviar PKG a PS4",
+          "ezRemote Client",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Trofeos Encriptados para PKG
+{
+  console: "PS4",
+  name: "Trofeos Encriptados para PKG",
+  image: "img/PS4/trofeos-encriptados.jpg",
+
+  description:
+    "Guía para verificar y corregir trofeos encriptados antes de generar paquetes PKG para PlayStation 4.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/nd4gRIqJ#CsFjcfBCBL_B050SF0G-Uw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite comprobar si los trofeos de un juego o actualización están encriptados y corregirlos antes de crear un PKG.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PKG: "✅ Compatible",
+      FTP: "✅ Compatible",
+    },
+
+    requirements: [
+      "PS4 Fake PKG Tools",
+      "FileZilla",
+      "PS4 con FTP",
+      "Juego dumpiado",
+      "PC con Windows",
+    ],
+
+    installation: [
+      "Descargar PS4 Fake PKG Tools.",
+      "Extraer las herramientas.",
+      "Preparar las carpetas APP y PATCH.",
+      "Verificar los trofeos.",
+      "Corregir los archivos necesarios.",
+    ],
+
+    usage:
+      "Permite analizar carpetas APP y PATCH para comprobar si contienen trofeos encriptados.",
+
+    notes:
+      "Es recomendable verificar tanto la carpeta APP como PATCH antes de generar el PKG final. 【1-ace939】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Herramienta Utilizada",
+        description:
+          "Software principal.",
+
+        items: [
+          "PS4 Fake PKG Tools",
+          "helper.exe",
+          "Análisis automático",
+          "Verificación de trofeos",
+        ],
+      },
+
+      {
+        title: "Verificar APP",
+        description:
+          "Juego principal.",
+
+        items: [
+          "CUASXXXXXX-app",
+          "Arrastrar sobre helper.exe",
+          "Analizar resultado",
+          "Verificar estado",
+        ],
+      },
+
+      {
+        title: "Verificar PATCH",
+        description:
+          "Actualización del juego.",
+
+        items: [
+          "CUASXXXXXX-patch",
+          "Comprobar cifrado",
+          "Obtener ID",
+          "Verificar trofeos",
+        ],
+      },
+
+      {
+        title: "FTP",
+        description:
+          "Obtención de archivos.",
+
+        items: [
+          "Activar FTP.",
+          "Conectar con FileZilla.",
+          "Acceder al sistema.",
+          "Copiar trofeos.",
+        ],
+      },
+
+      {
+        title: "Ruta de Trofeos",
+        description:
+          "Ubicación en PS4.",
+
+        items: [
+          "/user/trophy/conf",
+          "TROPHY.TRP",
+          "ID del juego",
+          "Archivo original",
+        ],
+      },
+
+      {
+        title: "Reemplazar Trofeos",
+        description:
+          "Proceso de corrección.",
+
+        items: [
+          "Copiar TROPHY.TRP",
+          "Reemplazar archivo",
+          "Eliminar anterior",
+          "Verificar resultado",
+        ],
+      },
+
+      {
+        title: "Comprobación Final",
+        description:
+          "Validación del proceso.",
+
+        items: [
+          "Repetir análisis.",
+          "Trofeos desencriptados.",
+          "APP correcta.",
+          "PATCH correcto.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Evita errores en PKG.",
+          "Verificación sencilla.",
+          "Compatible con PS4 Fake PKG Tools.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "Dump de Juegos PS4",
+          "Duxas PS4 Patch Repackager",
+          "PARAM.SFO Editor",
+          "PS4 Xplorer",
+          "GoldHEN",
+        ],
+      },
+    ],
+  },
+},
+// pkgMerge
+{
+  console: "PS4",
+  name: "pkgMerge",
+  image: "img/PS4/pkgmerge.jpg",
+
+  description:
+    "Herramienta para fusionar múltiples partes de un paquete PKG en un único archivo instalable para PlayStation 4.",
+
+  website: "https://github.com/Tustin/pkg-merge",
+  
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/KN5DGAzL#mmVXvdF0yUhuOYL9fy3N9A",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Tustin/pkg-merge/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite unir archivos PKG divididos en varias partes para generar un único paquete listo para instalar.",
+
+    compatibility: {
+      PS4: "✅ Compatible",
+      PKG: "✅ Compatible",
+      Updates: "✅ Compatible",
+      GoldHEN: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "pkgMerge",
+      "Archivos PKG divididos",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar pkgMerge.",
+      "Extraer los archivos.",
+      "Preparar las partes del PKG.",
+      "Copiar los archivos al directorio packages.",
+      "Ejecutar pkg-merge-x64.exe.",
+    ],
+
+    usage:
+      "Permite fusionar automáticamente todas las partes de un PKG para generar un único archivo instalable.",
+
+    notes:
+      "Especialmente útil para actualizaciones descargadas en múltiples partes desde servidores de parches. 【1-6b7756】",
+
+    version: "Actual",
+    author: "Scene PS4",
+
+    details: [
+      {
+        title: "¿Qué es pkgMerge?",
+        description:
+          "Fusión de paquetes.",
+
+        items: [
+          "Unir PKG divididos.",
+          "Generar archivo único.",
+          "Automatización.",
+          "Compatible con PS4.",
+        ],
+      },
+
+      {
+        title: "Actualizaciones",
+        description:
+          "Uso principal.",
+
+        items: [
+          "Parches oficiales.",
+          "Actualizaciones divididas.",
+          "Versiones grandes.",
+          "Archivos multi-parte.",
+        ],
+      },
+
+      {
+        title: "Preparación",
+        description:
+          "Archivos requeridos.",
+
+        items: [
+          "pkg-merge-x64",
+          "Carpeta packages",
+          "Partes del PKG",
+          "Espacio libre suficiente",
+        ],
+      },
+
+      {
+        title: "Proceso de Unión",
+        description:
+          "Creación del PKG.",
+
+        items: [
+          "Abrir pkgMerge.",
+          "Detectar fragmentos.",
+          "Fusionar automáticamente.",
+          "Generar PKG final.",
+        ],
+      },
+
+      {
+        title: "Origen de Parches",
+        description:
+          "Búsqueda de actualizaciones.",
+
+        items: [
+          "ID del juego.",
+          "Parches compatibles.",
+          "Versiones soportadas.",
+          "Actualizaciones disponibles.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Uso final.",
+
+        items: [
+          "Copiar a USB.",
+          "Package Installer.",
+          "Instalar actualización.",
+          "Verificar versión.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Proceso automático.",
+          "Compatible con grandes archivos.",
+          "Un solo PKG final.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "Duxas PS4 Patch Repackager",
+          "Trofeos Encriptados para PKG",
+          "PARAM.SFO Editor",
+          "Dump de Juegos PS4",
+          "Remote PKG Installer",
+        ],
+      },
+    ],
+  },
+},
+// PS4 PKG Viewer
+{
+  console: "PS4",
+  name: "PS4 PKG Viewer",
+  image: "img/PS4/ps4-pkg-viewer.jpg",
+
+  description:
+    "Herramienta para visualizar información avanzada de archivos PKG de PlayStation 4 antes de su instalación o modificación.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/Gdw0BSAI#3IMjJqr__cF4fYVpq-WG1A",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite inspeccionar archivos PKG y consultar información interna de juegos, aplicaciones, actualizaciones y contenido adicional.",
+
+    compatibility: {
+      PS4: "✅ Compatible",
+      PKG: "✅ Compatible",
+      Updates: "✅ Compatible",
+      DLC: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "PS4 PKG Viewer",
+      "Archivo PKG",
+    ],
+
+    installation: [
+      "Descargar PS4 PKG Viewer.",
+      "Extraer el archivo comprimido.",
+      "Ejecutar PS4PKGViewer.exe.",
+      "Abrir el PKG que deseas analizar.",
+    ],
+
+    usage:
+      "Permite examinar el contenido y los metadatos de cualquier archivo PKG compatible.",
+
+    notes:
+      "Muy útil para comprobar Title ID, versión, contenido y otros datos antes de modificar o instalar un paquete. 【1-984a34】",
+
+    version: "1.5",
+    author: "LeecherMan",
+
+    details: [
+      {
+        title: "Información del PKG",
+        description:
+          "Datos disponibles.",
+
+        items: [
+          "Title ID",
+          "Nombre del juego",
+          "Versión",
+          "Tipo de contenido",
+        ],
+      },
+
+      {
+        title: "Tipos Compatibles",
+        description:
+          "Archivos soportados.",
+
+        items: [
+          "Juegos",
+          "Actualizaciones",
+          "DLC",
+          "Homebrew",
+        ],
+      },
+
+      {
+        title: "Inspección de PKG",
+        description:
+          "Análisis detallado.",
+
+        items: [
+          "Metadatos internos.",
+          "Información avanzada.",
+          "Verificación rápida.",
+          "Consulta detallada.",
+        ],
+      },
+
+      {
+        title: "Uso Principal",
+        description:
+          "Funciones más comunes.",
+
+        items: [
+          "Ver información.",
+          "Identificar versiones.",
+          "Comprobar contenido.",
+          "Revisar paquetes.",
+        ],
+      },
+
+      {
+        title: "Compatible con",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS4 Fake PKG Tools",
+          "pkgMerge",
+          "Duxas Repackager",
+          "PARAM.SFO Editor",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Muy ligero.",
+          "Información detallada.",
+          "Fácil de usar.",
+          "Compatible con cualquier PKG.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "pkgMerge",
+          "PARAM.SFO Editor",
+          "Duxas PS4 Patch Repackager",
+          "Trofeos Encriptados para PKG",
+          "Dump de Juegos PS4",
+        ],
+      },
+    ],
+  },
+},
+// Chiaki (Uso a distancia)
+{
+  console: "PS4",
+  name: "Chiaki",
+  image: "img/PS4/chiaki.jpg",
+
+  description:
+    "Cliente de Remote Play para PlayStation 4 que permite jugar de forma remota desde Windows, Android y otros dispositivos compatibles.",
+
+  website: "https://git.sr.ht/~thestr4ng3r/chiaki",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/rQRgEIbB#rbmAbavJBvGSM0YIl5rWAw",
+    },
+    {
+      name: "GIT refs",
+      url: "https://git.sr.ht/~thestr4ng3r/chiaki/refs",
+    },
+    {
+      name: "PSN Account ID",
+      url: "https://psn.flipscreen.games/",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite acceder y controlar una PlayStation 4 remotamente desde un ordenador o dispositivo Android.",
+
+    compatibility: {
+      PS4: "✅ Compatible",
+      Windows: "✅ Compatible",
+      Android: "✅ Compatible",
+      RemotePlay: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4",
+      "Chiaki",
+      "Red local o Internet",
+      "Cuenta PSN",
+    ],
+
+    installation: [
+      "Descargar Chiaki.",
+      "Instalar o extraer la aplicación.",
+      "Detectar la consola.",
+      "Registrar el dispositivo.",
+      "Iniciar la sesión remota.",
+    ],
+
+    usage:
+      "Permite jugar, controlar y visualizar la consola desde otro dispositivo mediante streaming.",
+
+    notes:
+      "Para registrar la consola se necesita el PIN de Uso a distancia y el Account-ID del usuario PSN. 【1-c01ade】",
+
+    version: "Actual",
+    author: "thestr4ng3r",
+
+    details: [
+      {
+        title: "¿Qué es Chiaki?",
+        description:
+          "Cliente Remote Play.",
+
+        items: [
+          "Código abierto.",
+          "Remote Play.",
+          "Windows.",
+          "Android.",
+        ],
+      },
+
+      {
+        title: "Registro de Consola",
+        description:
+          "Configuración inicial.",
+
+        items: [
+          "IP de la PS4.",
+          "PSN Account-ID.",
+          "PIN de registro.",
+          "Vinculación segura.",
+        ],
+      },
+
+      {
+        title: "Uso en PC",
+        description:
+          "Cliente Windows.",
+
+        items: [
+          "chiaki.exe",
+          "Detección automática.",
+          "Registro manual.",
+          "Streaming remoto.",
+        ],
+      },
+
+      {
+        title: "Uso en Android",
+        description:
+          "Cliente móvil.",
+
+        items: [
+          "Chiaki-Up.",
+          "Configuración rápida.",
+          "Compatible con Android.",
+          "Jugar desde móvil.",
+        ],
+      },
+
+      {
+        title: "Datos Necesarios",
+        description:
+          "Información requerida.",
+
+        items: [
+          "PSN Online-ID.",
+          "PSN Account-ID.",
+          "PIN de Uso a Distancia.",
+          "IP de la consola.",
+        ],
+      },
+
+      {
+        title: "Funciones",
+        description:
+          "Uso principal.",
+
+        items: [
+          "Juego remoto.",
+          "Streaming de vídeo.",
+          "Control completo.",
+          "Acceso desde otros dispositivos.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Código abierto.",
+          "Compatible con Android.",
+          "Compatible con Windows.",
+          "Alternativa a Remote Play oficial.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "PSLAN Loader",
+          "ezRemote Client",
+          "Remote Store",
+          "GoldHEN",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// PS2 FPKG
+{
+  console: "PS4",
+  name: "PS2 FPKG",
+
+  image: "img/PS4/ps2-fpkg.jpg",
+
+  description:
+    "Herramienta para convertir juegos de PlayStation 2 en paquetes FPKG compatibles con PlayStation 4.",
+
+  website: "https://www.psx-place.com/threads/release-ps2-fpkg-v0-7-beta-a-complete-rewrite-of-my-ps2-to-ps4-converter.41916/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/6dJjATTS#SGYyrs4xSji7TRDaMWLzmg",
+    }
+  ],
+
+  guide: {
+    function:
+      "Permite convertir imágenes ISO de PlayStation 2 en paquetes instalables para PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PS2: "✅ Compatible",
+      FPKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "PS2-FPKG",
+      "Juego PS2 en formato ISO",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar PS2-FPKG.",
+      "Extraer el archivo comprimido.",
+      "Ejecutar PS2-FPKG.exe.",
+      "Seleccionar la ISO del juego.",
+      "Crear el paquete FPKG.",
+    ],
+
+    usage:
+      "Permite generar juegos de PlayStation 2 instalables directamente desde el menú principal de PS4.",
+
+    notes:
+      "Antes de crear el paquete es recomendable comprobar la compatibilidad del juego en las listas de compatibilidad disponibles. 【1-896214】",
+
+    version: "Actual",
+    author: "PSX-Place Community",
+
+    details: [
+      {
+        title: "Juego PS2",
+        description:
+          "Archivo principal.",
+
+        items: [
+          "ISO compatible",
+          "Detección automática",
+          "Lectura del juego",
+          "Conversión a FPKG",
+        ],
+      },
+
+      {
+        title: "Juegos Multidisco",
+        description:
+          "Compatibilidad avanzada.",
+
+        items: [
+          "Disc 1",
+          "Disc 2",
+          "Múltiples discos",
+          "Selección automática",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Aspecto visual.",
+
+        items: [
+          "Icon.png",
+          "Background.png",
+          "Imagen personalizada",
+          "Biblioteca visual",
+        ],
+      },
+
+      {
+        title: "Información del Juego",
+        description:
+          "Metadatos.",
+
+        items: [
+          "NP Title",
+          "Nombre del juego",
+          "Título personalizado",
+          "Identificación automática",
+        ],
+      },
+
+      {
+        title: "Crear FPKG",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Create fPKG",
+          "Seleccionar destino",
+          "Generar paquete",
+          "Guardar resultado",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Uso final.",
+
+        items: [
+          "USB ExFAT",
+          "Package Installer",
+          "Instalar PKG",
+          "Ejecutar juego",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Verificación recomendada.",
+
+        items: [
+          "Listado de compatibilidad",
+          "Juegos soportados",
+          "Pruebas comunitarias",
+          "Nuevos títulos",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Conversión sencilla.",
+          "Compatible con GoldHEN.",
+          "Soporte multidisco.",
+          "Personalización visual.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS4SX2",
+          "Crear Juegos PS1 y PSP",
+          "Sega Saturn FPKG",
+          "PS4 PKG Viewer",
+          "pkgMerge",
+        ],
+      },
+    ],
+  },
+},
+// PSP FPKG
+{
+  console: "PS4",
+  name: "PSP FPKG",
+
+  image: "img/PS4/psp-fpkg.jpg",
+
+  description:
+    "Herramienta para convertir juegos de PSP en paquetes FPKG compatibles con PlayStation 4 utilizando el emulador PSPHD.",
+
+  website: "https://www.psx-place.com/threads/psp-fpkg-v1-0-1-play-psp-games-with-the-ps-plus-emulator.37947/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/vJpnBYiT#JdXGRVcyzNAqn3V-tkQpWQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite convertir juegos de PlayStation Portable en aplicaciones instalables para PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PSP: "✅ Compatible",
+      FPKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "PSP-FPKG",
+      "Juego PSP en formato ISO",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar PSP-FPKG.",
+      "Extraer los archivos.",
+      "Ejecutar PSP-FPKG.exe.",
+      "Seleccionar la ISO del juego.",
+      "Crear el paquete FPKG.",
+    ],
+
+    usage:
+      "Permite generar paquetes instalables de PSP para ejecutarlos desde el menú principal de PS4.",
+
+    notes:
+      "La herramienta completa automáticamente parte de la información del juego al cargar la ISO. 【1-c5d7ef】",
+
+    version: "Actual",
+    author: "PSX-Place Community",
+
+    details: [
+      {
+        title: "Juego PSP",
+        description:
+          "Archivo principal.",
+
+        items: [
+          "ISO PSP",
+          "Lectura automática",
+          "Conversión FPKG",
+          "Compatible con PS4",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Aspecto visual.",
+
+        items: [
+          "Icon",
+          "Splash",
+          "Imagen personalizada",
+          "Biblioteca visual",
+        ],
+      },
+
+      {
+        title: "Información Automática",
+        description:
+          "Metadatos del juego.",
+
+        items: [
+          "NP Title",
+          "Nombre del juego",
+          "Detección automática",
+          "Información integrada",
+        ],
+      },
+
+      {
+        title: "PSPHD",
+        description:
+          "Motor utilizado.",
+
+        items: [
+          "Emulador PSPHD",
+          "PS Plus",
+          "Integración PS4",
+          "Ejecución directa",
+        ],
+      },
+
+      {
+        title: "Crear FPKG",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Seleccionar ISO",
+          "Configurar imágenes",
+          "Create fPKG",
+          "Guardar resultado",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Uso final.",
+
+        items: [
+          "USB ExFAT",
+          "Package Installer",
+          "Instalar PKG",
+          "Ejecutar juego",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Conversión sencilla.",
+          "Compatible con GoldHEN.",
+          "Proceso automático.",
+          "Personalización visual.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS2 FPKG",
+          "Crear Juegos PS1 y PSP",
+          "Sega Saturn FPKG",
+          "PS4 PKG Viewer",
+          "pkgMerge",
+        ],
+      },
+    ],
+  },
+},
+// 5.17
 ];
