@@ -9651,5 +9651,1173 @@ const ps4Apps = [
     ],
   },
 },
-// 5.17
+// Saturn PS4
+{
+  console: "PS4",
+  name: "Saturn PS4",
+
+  image: "img/PS4/saturn-ps4.jpg",
+
+  description:
+    "Herramienta para convertir juegos de Sega Saturn en paquetes FPKG instalables directamente desde el menú principal de PlayStation 4.",
+
+  website: "https://www.logic-sunrise.com/news-1172671-ps4-saturn2ps4-v10-pour-505-672-et-900.html",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/CNRBXaIZ#D3FntUm2znBCEyv3cvh-qw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear paquetes FPKG de Sega Saturn con portada personalizada, fondo e identificador propio para PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      SegaSaturn: "✅ Compatible",
+      FPKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "Saturn PS4",
+      "Juego de Sega Saturn",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar Saturn PS4.",
+      "Extraer los archivos.",
+      "Copiar el juego a la carpeta game.",
+      "Ejecutar Create_Saturn_PKG_v1.1.bat.",
+      "Generar el PKG final.",
+    ],
+
+    usage:
+      "Permite convertir juegos de Sega Saturn en aplicaciones instalables para PlayStation 4.",
+
+    notes:
+      "Es posible personalizar el icono, la imagen de fondo y el identificador del juego antes de generar el paquete. 【1-544a34】",
+
+    version: "Actual",
+    author: "Logic-Sunrise Community",
+
+    details: [
+      {
+        title: "Archivos de la Herramienta",
+        description:
+          "Contenido principal.",
+
+        items: [
+          "Saturn2PS4",
+          "Create_Saturn_PKG_v1.1.bat",
+          "Carpeta game",
+          "Herramientas de compilación",
+        ],
+      },
+
+      {
+        title: "Preparar Juego",
+        description:
+          "Configuración inicial.",
+
+        items: [
+          "Copiar juego a game.",
+          "Agregar portada.",
+          "Agregar fondo.",
+          "Preparar proyecto.",
+        ],
+      },
+
+      {
+        title: "Configuración del PKG",
+        description:
+          "Datos personalizados.",
+
+        items: [
+          "ID personalizado.",
+          "Nombre del juego.",
+          "Portada personalizada.",
+          "Fondo personalizado.",
+        ],
+      },
+
+      {
+        title: "Crear PKG",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Abrir Create_Saturn_PKG_v1.1.bat",
+          "Seleccionar idioma",
+          "Elegir opción 1",
+          "Continuar creación",
+        ],
+      },
+
+      {
+        title: "Compilación",
+        description:
+          "Generación del paquete.",
+
+        items: [
+          "Opción 5",
+          "Compilar juego",
+          "Generar PKG",
+          "Esperar finalización",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Uso en PlayStation 4.",
+
+        items: [
+          "Copiar PKG al USB.",
+          "USB ExFAT.",
+          "Package Installer.",
+          "Ejecutar juego.",
+        ],
+      },
+
+      {
+        title: "Sistema Compatible",
+        description:
+          "Plataforma soportada.",
+
+        items: [
+          "Sega Saturn",
+          "32 Bits",
+          "Retro Gaming",
+          "PS4",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Conversión sencilla.",
+          "Iconos personalizados.",
+          "Fondos personalizados.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS2 FPKG",
+          "PSP FPKG",
+          "Crear Juegos PS1 y PSP",
+          "PS4 PKG Viewer",
+          "pkgMerge",
+        ],
+      },
+    ],
+  },
+},
+// Mods de PC para PS4
+{
+  console: "PS4",
+  name: "Mods de PC para PS4",
+
+  image: "img/PS4/mods-pc-ps4.jpg",
+
+  description:
+    "Guía para adaptar e instalar mods de PC en juegos de PlayStation 4 utilizando RE-PAK, PS4-RE-TEX y GoldHEN Plugins Loader.",
+
+  website: "https://github.com/praydog/RE-PAK",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/yZAVjQhb#O2TllGUBDLEf_GPJU1v4fQ",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/Backporter/RE-PAK/releases",
+    },
+    {
+      name: "Github PS4-RE-TEX",
+      url: "https://github.com/Backporter/PS4-RE-TEX/releases",
+    },
+    {
+      name: "Github GoldHEN Plugins Repository",
+      url: "https://github.com/GoldHEN/GoldHEN_Plugins_Repository/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite convertir mods de PC para utilizarlos en juegos compatibles de PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Mods: "✅ Compatible",
+      FTP: "✅ Compatible",
+      Plugins: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "RE-PAK",
+      "PS4-RE-TEX",
+      "GoldHEN Plugins Loader",
+      "FTP Server",
+      "PC con Windows",
+    ],
+
+    installation: [
+      "Obtener el Title ID del juego.",
+      "Descargar el mod compatible.",
+      "Extraer los archivos necesarios.",
+      "Convertir los archivos para PS4.",
+      "Copiar los archivos mediante FTP.",
+    ],
+
+    usage:
+      "Permite cargar mods personalizados en juegos compatibles utilizando el sistema AFR de GoldHEN.",
+
+    notes:
+      "La guía utiliza como ejemplo juegos basados en RE Engine y mods descargados desde NexusMods. 【1-189b05】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Herramientas Utilizadas",
+        description:
+          "Software requerido.",
+
+        items: [
+          "RE-PAK",
+          "PS4-RE-TEX",
+          "GoldPlugins",
+          "FTP Server",
+        ],
+      },
+
+      {
+        title: "Identificar Juego",
+        description:
+          "Información necesaria.",
+
+        items: [
+          "Show TitleID",
+          "TitleID & AppVer",
+          "Versión instalada",
+          "ID del juego",
+        ],
+      },
+
+      {
+        title: "Descargar Mods",
+        description:
+          "Contenido compatible.",
+
+        items: [
+          "NexusMods",
+          "Descarga manual",
+          "Mods compatibles",
+          "Archivos del juego",
+        ],
+      },
+
+      {
+        title: "Acceso FTP",
+        description:
+          "Obtención de archivos.",
+
+        items: [
+          "Enable FTP Server",
+          "FileZilla",
+          "mnt/sandbox/pfsmnt",
+          "Acceso remoto",
+        ],
+      },
+
+      {
+        title: "Modificar Archivos",
+        description:
+          "Preparación del mod.",
+
+        items: [
+          "re_chunk_000.pak",
+          "re_chunk_001.pak",
+          "Carpeta natives",
+          "Conversión PS4",
+        ],
+      },
+
+      {
+        title: "Crear Mod PAK",
+        description:
+          "Compilación.",
+
+        items: [
+          "Open Save",
+          "PAK Creator",
+          "Create",
+          "Generar archivos patch",
+        ],
+      },
+
+      {
+        title: "Instalación AFR",
+        description:
+          "Integración con GoldHEN.",
+
+        items: [
+          "/data/GoldHEN/AFR",
+          "Carpeta CUSA",
+          "Copiar archivos patch",
+          "Activar Plugins Loader",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Usar mods de PC.",
+          "Compatible con GoldHEN.",
+          "Instalación sin reconstruir PKG.",
+          "Personalización avanzada.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "GoldHEN Cheats Manager",
+          "PS4 Xplorer",
+          "ezRemote Client",
+          "Orbis Toolbox",
+          "Crear Tus Propios Trucos",
+        ],
+      },
+    ],
+  },
+},
+// PSX FPKG
+{
+  console: "PS4",
+  name: "PSX FPKG",
+
+  image: "img/PS4/psx-fpkg.jpg",
+
+  description:
+    "Herramienta para convertir juegos de PlayStation 1 en paquetes FPKG instalables en PlayStation 4.",
+
+  website: "https://www.psx-place.com/threads/psx-fpkg-by-jabu-a-tool-to-convert-ps1-psx-games-for-use-on-ps4.30498/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/nQ5A2LCB#mSRKEwPey74xXoEuQUXvGA",
+    },
+    {
+      name: "WEB logic-sunrise",
+      url: "https://www.logic-sunrise.com/news-1177662-ps4-psx2ps4-v151-nouvel-emulateur-et-ajout-du-multi-discs.html",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite convertir juegos de PS1 en aplicaciones instalables para PlayStation 4 utilizando PSX-FPKG o psx2ps4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PS1: "✅ Compatible",
+      FPKG: "✅ Compatible",
+      MultiDisc: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "PSX-FPKG",
+      "psx2ps4",
+      "Juego PS1",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Descargar la herramienta.",
+      "Seleccionar la imagen del juego.",
+      "Configurar opciones y portadas.",
+      "Crear el paquete FPKG.",
+      "Instalar en PS4.",
+    ],
+
+    usage:
+      "Permite generar paquetes PKG de PlayStation 1 personalizados para ejecutarlos desde el menú principal de PS4.",
+
+    notes:
+      "Compatible con juegos multidisco y distintas opciones de emulación configurables durante la creación del paquete. 【1-86300b】",
+
+    version: "Actual",
+    author: "PSX-Place Community",
+
+    details: [
+      {
+        title: "Herramientas Incluidas",
+        description:
+          "Métodos disponibles.",
+
+        items: [
+          "PSX-FPKG",
+          "psx2ps4",
+          "Conversión automática",
+          "Creación de PKG",
+        ],
+      },
+
+      {
+        title: "Juegos Multidisco",
+        description:
+          "Compatibilidad avanzada.",
+
+        items: [
+          "Disc 1",
+          "Disc 2",
+          "Múltiples discos",
+          "Selección automática",
+        ],
+      },
+
+      {
+        title: "PSX-FPKG",
+        description:
+          "Método gráfico.",
+
+        items: [
+          "Select Game.",
+          "Discs.",
+          "Create fPKG.",
+          "Configuración visual.",
+        ],
+      },
+
+      {
+        title: "Opciones de Emulación",
+        description:
+          "Configuración adicional.",
+
+        items: [
+          "Skip Bootlogo",
+          "Force 60Hz",
+          "Emulate Analog Sticks",
+          "Game Config",
+        ],
+      },
+
+      {
+        title: "psx2ps4",
+        description:
+          "Método alternativo.",
+
+        items: [
+          "MENU_PSX2PS4",
+          "Modo consola.",
+          "Configuración guiada.",
+          "Creación automática.",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Aspecto visual.",
+
+        items: [
+          "Icono personalizado.",
+          "Portada.",
+          "Imagen de fondo.",
+          "Título personalizado.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Uso final.",
+
+        items: [
+          "USB ExFAT.",
+          "Package Installer.",
+          "Instalar PKG.",
+          "Ejecutar juego.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Compatible con PS1.",
+          "Soporte multidisco.",
+          "Opciones de emulación.",
+          "Compatible con GoldHEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PSP FPKG",
+          "PS2 FPKG",
+          "Saturn PS4",
+          "PS4 PKG Viewer",
+          "pkgMerge",
+        ],
+      },
+    ],
+  },
+},
+// PS2 CodeBreaker Cheats
+{
+  console: "PS4",
+  name: "PS2 CodeBreaker Cheats",
+
+  image: "img/PS4/ps2-codebreaker-cheats.jpg",
+
+  description:
+    "Guía para agregar CodeBreaker Cheats a juegos de PlayStation 2 convertidos para PlayStation 4.",
+
+  website: "https://nuclearhacks.es/como-utilizar-codebreaker-en-ps4-para-juegos-de-playstation-2/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/jAJHHQKI#586fnLo36TI7eUSSi9N2yw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear juegos PS2 con soporte para CodeBreaker Cheats y ejecutarlos desde PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      PS2: "✅ Compatible",
+      Cheats: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "ISO de PlayStation 2",
+      "PS2 CodeBreaker Cheats PS4 FPKG",
+      "PS4 PS2 Classics GUI",
+      "PC con Windows",
+    ],
+
+    installation: [
+      "Extraer la ISO del juego.",
+      "Modificar el archivo SYSTEM.CNF.",
+      "Reconstruir la ISO.",
+      "Crear el PKG de PS2.",
+      "Instalar el PKG en PS4.",
+    ],
+
+    usage:
+      "Permite lanzar CodeBreaker antes de iniciar el juego y activar trucos compatibles.",
+
+    notes:
+      "La guía recomienda utilizar versiones americanas de los juegos para una mejor compatibilidad con los códigos disponibles. 【1-fb98d5】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "¿Qué es CodeBreaker?",
+        description:
+          "Sistema de trucos para PS2.",
+
+        items: [
+          "Cheats para PS2",
+          "CodeBreaker",
+          "Compatible con PS4",
+          "Integrado en FPKG",
+        ],
+      },
+
+      {
+        title: "Archivos Necesarios",
+        description:
+          "Herramientas utilizadas.",
+
+        items: [
+          "PS2 CodeBreaker Cheats PS4 FPKG",
+          "Cdvdgen",
+          "cdvd_iml2iso",
+          "PS4 PS2 Classics GUI",
+        ],
+      },
+
+      {
+        title: "Preparar Juego",
+        description:
+          "Modificación inicial.",
+
+        items: [
+          "Extraer ISO",
+          "Editar SYSTEM.CNF",
+          "Modificar BOOT2",
+          "Guardar cambios",
+        ],
+      },
+
+      {
+        title: "Reconstruir ISO",
+        description:
+          "Creación del juego.",
+
+        items: [
+          "Cdvdgen",
+          "Export IML",
+          "Convertir a ISO",
+          "Verificar resultado",
+        ],
+      },
+
+      {
+        title: "Crear FPKG",
+        description:
+          "Generación del PKG.",
+
+        items: [
+          "PS4 PS2 Classics GUI",
+          "Cargar ISO",
+          "Añadir carátulas",
+          "Crear PKG",
+        ],
+      },
+
+      {
+        title: "Activar Cheats",
+        description:
+          "Uso de CodeBreaker.",
+
+        items: [
+          "Select Cheats",
+          "Elegir juego",
+          "Activar códigos",
+          "Start Game",
+        ],
+      },
+
+      {
+        title: "Administrador ELF",
+        description:
+          "Acceso a aplicaciones.",
+
+        items: [
+          "PS2LOADELF",
+          "CODEBR-1.ELF",
+          "cdfs:/--ELF--/",
+          "Gestor de archivos",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Cheats para juegos PS2.",
+          "Compatible con GoldHEN.",
+          "Integración en PS4.",
+          "Biblioteca personalizada.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS2 FPKG",
+          "PS4SX2",
+          "GoldHEN Cheats Manager",
+          "Crear Tus Propios Trucos",
+          "PS4 PS2 Classics GUI",
+        ],
+      },
+    ],
+  },
+},
+// RetroArch PS2 en PS4
+{
+  console: "PS4",
+  name: "RetroArch PS2 en PS4",
+
+  image: "img/PS4/retroarch-ps2-en-ps4.jpg",
+
+  description:
+    "Herramienta que permite crear paquetes FPKG con RetroArch para ejecutar emuladores y juegos retro desde el entorno PS2 de PlayStation 4.",
+
+  website: "https://www.logic-sunrise.com/news-1175709-ps4-creer-un-fpkg-demulateur-en-un-clic.html",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/fIIwAa4J#k5wx0qTa9YGYrKtqILAi0Q",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite generar paquetes instalables que ejecutan RetroArch PS2 dentro de PlayStation 4 para cargar múltiples sistemas retro.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      RetroArch: "✅ Compatible",
+      PS2Emu: "✅ Compatible",
+      FPKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Retroarch_PS2_on_PS4",
+      "PC con Windows",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Extraer Retroarch_PS2_on_PS4.",
+      "Colocar los juegos en la carpeta games.",
+      "Ejecutar Retroarch_PS2_on_PS4.bat.",
+      "Seleccionar el emulador deseado.",
+      "Generar e instalar el PKG.",
+    ],
+
+    usage:
+      "Permite ejecutar RetroArch desde el entorno PS2 de la consola para cargar juegos retro compatibles.",
+
+    notes:
+      "El paquete generado inicia primero el administrador de archivos PS2 y posteriormente carga el core seleccionado de RetroArch. 【1-22b704】",
+
+    version: "Actual",
+    author: "Scene PS4",
+
+    details: [
+      {
+        title: "Herramienta Utilizada",
+        description:
+          "Contenido principal.",
+
+        items: [
+          "Retroarch_PS2_on_PS4",
+          "RetroArch",
+          "PS2 Emulator",
+          "FPKG",
+        ],
+      },
+
+      {
+        title: "Preparar Juegos",
+        description:
+          "Contenido compatible.",
+
+        items: [
+          "Carpeta games",
+          "Biblioteca personalizada",
+          "Carga automática",
+          "Organización sencilla",
+        ],
+      },
+
+      {
+        title: "Crear PKG",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Retroarch_PS2_on_PS4.bat",
+          "Seleccionar emulador",
+          "Crear paquete",
+          "Generar PKG",
+        ],
+      },
+
+      {
+        title: "RetroArch PS2",
+        description:
+          "Inicio de la aplicación.",
+
+        items: [
+          "Administrador PS2",
+          "Cores Libretro",
+          "Carga automática",
+          "Entorno RetroArch",
+        ],
+      },
+
+      {
+        title: "Cores Compatibles",
+        description:
+          "Ejemplo mostrado.",
+
+        items: [
+          "PICODRIVE_LIBRETRO_PS2",
+          "Mega Drive",
+          "Genesis",
+          "Otros cores compatibles",
+        ],
+      },
+
+      {
+        title: "Carga de Juegos",
+        description:
+          "Navegación dentro de RetroArch.",
+
+        items: [
+          "Load Content",
+          "Downloads",
+          "Load Archive",
+          "Seleccionar juego",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "RetroArch portátil.",
+          "Compatible con GoldHEN.",
+          "Múltiples sistemas.",
+          "Instalación mediante PKG.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas de emulación.",
+
+        items: [
+          "RetroArch",
+          "PS2 FPKG",
+          "PS4SX2",
+          "Batocera PS4",
+          "pFBN Neo",
+        ],
+      },
+    ],
+  },
+},
+// PS4 PKG Tool
+{
+  console: "PS4",
+  name: "PS4 PKG Tool",
+
+  image: "img/PS4/ps4-pkg-tool.jpg",
+
+  description:
+    "Herramienta para administrar bibliotecas de archivos PKG de PlayStation 4 y visualizar información de juegos, actualizaciones y DLC.",
+
+  website: "https://github.com/pearlxcore/PS4PKGTool",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/Hc5iQL7I#6PeLoNywopih0i_wawqbJQ",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/pearlxcore/PS4PKGTool/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite organizar y analizar bibliotecas de paquetes PKG para identificar fácilmente juegos, actualizaciones y contenido descargable.",
+
+    compatibility: {
+      PS4: "✅ Compatible",
+      PKG: "✅ Compatible",
+      DLC: "✅ Compatible",
+      Updates: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "PS4 PKG Tool",
+      "Archivos PKG",
+    ],
+
+    installation: [
+      "Descargar PS4 PKG Tool.",
+      "Extraer el archivo comprimido.",
+      "Ejecutar la aplicación.",
+      "Agregar la biblioteca de PKG.",
+    ],
+
+    usage:
+      "Permite visualizar y administrar colecciones de archivos PKG desde una única interfaz.",
+
+    notes:
+      "Facilita la identificación rápida de juegos base, actualizaciones y DLC dentro de una misma biblioteca. 【1-9178df】",
+
+    version: "Actual",
+    author: "Scene PS4",
+
+    details: [
+      {
+        title: "Biblioteca PKG",
+        description:
+          "Gestión centralizada.",
+
+        items: [
+          "Juegos",
+          "Actualizaciones",
+          "DLC",
+          "Homebrew",
+        ],
+      },
+
+      {
+        title: "Clasificación",
+        description:
+          "Identificación rápida.",
+
+        items: [
+          "Game",
+          "Update",
+          "DLC",
+          "Contenido detectado",
+        ],
+      },
+
+      {
+        title: "Administración",
+        description:
+          "Organización de archivos.",
+
+        items: [
+          "Biblioteca local.",
+          "Listado de paquetes.",
+          "Gestión sencilla.",
+          "Acceso rápido.",
+        ],
+      },
+
+      {
+        title: "Información Disponible",
+        description:
+          "Datos del paquete.",
+
+        items: [
+          "Nombre del contenido.",
+          "Tipo de paquete.",
+          "Versión.",
+          "Contenido asociado.",
+        ],
+      },
+
+      {
+        title: "Uso Principal",
+        description:
+          "Utilidad práctica.",
+
+        items: [
+          "Ordenar bibliotecas.",
+          "Verificar descargas.",
+          "Revisar paquetes.",
+          "Administrar colecciones.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Organización sencilla.",
+          "Compatible con bibliotecas grandes.",
+          "Información rápida.",
+          "Administración centralizada.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS4 PKG Viewer",
+          "pkgMerge",
+          "PARAM.SFO Editor",
+          "Duxas PS4 Patch Repackager",
+          "Remote PKG Installer",
+        ],
+      },
+    ],
+  },
+},
+// Desbloquea Tus Trofeos
+{
+  console: "PS4",
+  name: "Desbloquea Tus Trofeos",
+
+  image: "img/PS4/trophy-unlocker.jpg",
+
+  description:
+    "Herramienta para gestionar y desbloquear trofeos de PlayStation 4 utilizando Trophy Unlocker.",
+
+  website: "https://github.com/xXxTheDarkprogramerxXx/PS4_Tools/tree/master/TrophyUnlocker",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/fBI2iZJK#9ShHdozeziyA5dXfY2RWMg",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite administrar y desbloquear trofeos compatibles desde una interfaz diseñada para PlayStation 4.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Trofeos: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Trophy Unlocker",
+      "Juego compatible",
+    ],
+
+    installation: [
+      "Descargar Trophy Unlocker.",
+      "Instalar la aplicación.",
+      "Ejecutar la herramienta.",
+      "Seleccionar el perfil o juego.",
+    ],
+
+    usage:
+      "Permite administrar y gestionar trofeos compatibles desde la consola.",
+
+    notes:
+      "Se recomienda realizar una copia de seguridad de los datos importantes antes de modificar información relacionada con trofeos.",
+
+    version: "Actual",
+    author: "xXxTheDarkprogramerxXx",
+
+    details: [
+      {
+        title: "Gestión de Trofeos",
+        description:
+          "Funciones principales.",
+
+        items: [
+          "Trofeos PS4",
+          "Biblioteca local",
+          "Administración sencilla",
+          "Acceso rápido",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Requisitos del sistema.",
+
+        items: [
+          "PlayStation 4",
+          "GoldHEN",
+          "Juegos compatibles",
+          "Perfil local",
+        ],
+      },
+
+      {
+        title: "Interfaz",
+        description:
+          "Experiencia de usuario.",
+
+        items: [
+          "Menús sencillos",
+          "Acceso rápido",
+          "Información organizada",
+          "Uso intuitivo",
+        ],
+      },
+
+      {
+        title: "Desarrollador",
+        description:
+          "Proyecto original.",
+
+        items: [
+          "xXxTheDarkprogramerxXx",
+          "PS4 Tools",
+          "Open Source",
+          "GitHub",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Gestión de trofeos.",
+          "Compatible con GoldHEN.",
+          "Fácil utilización.",
+          "Integración con PS4.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "GoldHEN Cheats Manager",
+          "Crear Tus Propios Trucos",
+          "PS2 CodeBreaker Cheats",
+          "PS4debug",
+          "Orbis Toolbox",
+        ],
+      },
+    ],
+  },
+},
 ];
