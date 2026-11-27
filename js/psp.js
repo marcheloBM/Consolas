@@ -2285,7 +2285,7 @@ const pspApps = [
 {
     console: "PSP",
 
-    name: "RetroArch para PSP",
+    name: "RetroArch Para PSP",
 
     image: "img/PSP/RETROARCH.jpg",
 
@@ -2961,5 +2961,163 @@ const pspApps = [
         }
     ]
 },
+// PSP Modo Seguro
+{
+  console: "PSP",
+  name: "PSP Modo Seguro",
 
+  image: "img/PSP/psp-modo-seguro.jpg",
+
+  description:
+    "Guía completa del Recovery Menu y PRO VSH Menu de PSP con Custom Firmware.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite acceder al Recovery Menu para administrar funciones avanzadas, plugins, velocidad del sistema y recuperación de errores.",
+
+    compatibility: {
+      PSP: "✅ Compatible",
+      PROCFW: "✅ Compatible",
+      Recovery: "✅ Compatible",
+      Plugins: "✅ Compatible",
+    },
+
+    requirements: [
+      "PSP con Custom Firmware",
+      "Botón R funcional",
+      "Memory Stick",
+    ],
+
+    installation: [
+      "Apagar completamente la PSP.",
+      "Mantener presionado R.",
+      "Encender la consola.",
+      "Esperar la aparición del Recovery Menu.",
+    ],
+
+    usage:
+      "Permite modificar opciones avanzadas del sistema, gestionar plugins y solucionar problemas del firmware.",
+
+    notes:
+      "Incluye documentación del Recovery Menu y del PRO VSH Menu utilizados por Custom Firmware PRO. 【1-c0235f】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Recovery Menu",
+        description: "Menú principal.",
+
+        items: [
+          "Toggle USB",
+          "Run EBOOT.PBP",
+          "Configuration",
+          "Advanced",
+        ],
+      },
+
+      {
+        title: "Sistema ISO",
+        description: "Carga de juegos.",
+
+        items: [
+          "Inferno",
+          "Sony NP9660",
+          "M33 Driver",
+          "ISO Mode",
+        ],
+      },
+
+      {
+        title: "Plugins",
+        description: "Gestión avanzada.",
+
+        items: [
+          "XMB Plugins",
+          "Game Plugins",
+          "Pops Plugins",
+          "Administración",
+        ],
+      },
+
+      {
+        title: "CPU y Rendimiento",
+        description: "Optimización.",
+
+        items: [
+          "CPU Clock XMB",
+          "CPU Clock Game",
+          "Velocidad BUS",
+          "Rendimiento",
+        ],
+      },
+
+      {
+        title: "USB Avanzado",
+        description: "Acceso interno.",
+
+        items: [
+          "Memory Stick",
+          "Flash0",
+          "Flash1",
+          "Flash2",
+        ],
+      },
+
+      {
+        title: "Registry Hacks",
+        description: "Modificaciones adicionales.",
+
+        items: [
+          "Activar WMA",
+          "Activar Flash",
+          "Swap O/X",
+          "Delete Hibernation",
+        ],
+      },
+
+      {
+        title: "Recuperación",
+        description: "Mantenimiento.",
+
+        items: [
+          "Reset VSH",
+          "Reset Device",
+          "Suspend Device",
+          "Shutdown Device",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Beneficios principales.",
+
+        items: [
+          "Configuración avanzada.",
+          "Gestión de plugins.",
+          "Control del rendimiento.",
+          "Recuperación del sistema.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description: "Guías similares.",
+
+        items: [
+          "PS Vita Modo Seguro",
+          "PS3 Modo Seguro",
+          "PS4 Modo Seguro",
+          "Custom Firmware PSP",
+          "PRO VSH Menu",
+        ],
+      },
+    ],
+  },
+},
 ];
