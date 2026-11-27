@@ -10820,4 +10820,1346 @@ const ps4Apps = [
     ],
   },
 },
+// DNS + Cancelar Update
+{
+  console: "PS4",
+  name: "DNS + Cancelar Update",
+
+  image: "img/PS4/dns-cancelar-update.jpg",
+
+  description:
+    "Guía para evitar actualizaciones automáticas del sistema y configurar medidas de protección en PlayStation 4.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite configurar diferentes métodos para prevenir actualizaciones automáticas del sistema.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      DNS: "✅ Compatible",
+      DebugSettings: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4",
+      "GoldHEN",
+      "Acceso a Internet",
+    ],
+
+    installation: [
+      "Configurar Debug Settings.",
+      "Ajustar parámetros DNS.",
+      "Desactivar descargas automáticas.",
+      "Aplicar bloqueo de actualizaciones.",
+    ],
+
+    usage:
+      "Permite mantener la configuración deseada de la consola evitando descargas automáticas del sistema.",
+
+    notes:
+      "La guía reúne varios métodos de configuración disponibles desde la propia consola. 【1-d2cc77】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Método Debug Settings",
+        description:
+          "Configuración avanzada.",
+
+        items: [
+          "Debug Settings",
+          "PlayStation Network",
+          "NP Environment",
+          "sp-int",
+        ],
+      },
+
+      {
+        title: "Configuración DNS",
+        description:
+          "Método alternativo.",
+
+        items: [
+          "DNS personalizada",
+          "Configuración manual",
+          "Ethernet",
+          "Wi-Fi",
+        ],
+      },
+
+      {
+        title: "Descargas Automáticas",
+        description:
+          "Opciones del sistema.",
+
+        items: [
+          "Descargas automáticas",
+          "Software del sistema",
+          "Configuración manual",
+          "Control de actualizaciones",
+        ],
+      },
+
+      {
+        title: "Informes del Sistema",
+        description:
+          "Opciones adicionales.",
+
+        items: [
+          "Informar errores",
+          "Configuración manual",
+          "Opciones del sistema",
+          "Privacidad",
+        ],
+      },
+
+      {
+        title: "Payloads Relacionados",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "Disable Update",
+          "GoldHEN",
+          "Host Web",
+          "Jailbreak",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Configuración sencilla.",
+          "Compatible con GoldHEN.",
+          "Múltiples métodos.",
+          "Mayor control del sistema.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas recomendadas.",
+
+        items: [
+          "GoldHEN",
+          "Host Web",
+          "Payloads PS4",
+          "Homebrew Store",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Uso a Distancia con PS Vita
+{
+  console: "PS4",
+  name: "Uso a Distancia con PS Vita",
+
+  image: "img/PS4/distancia-psvita.jpg",
+
+  description:
+    "Guía para utilizar PlayStation Vita como dispositivo de uso remoto para controlar y jugar en PlayStation 4.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite conectar una PS Vita a una PlayStation 4 mediante Uso a Distancia para jugar desde la portátil.",
+
+    compatibility: {
+      PS4: "✅ Compatible",
+      PSVita: "✅ Compatible",
+      PSVTV: "✅ Compatible",
+      RemotePlay: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4",
+      "PlayStation Vita o PS TV",
+      "Misma red local",
+      "Uso a Distancia activado",
+    ],
+
+    installation: [
+      "Configurar la PS Vita.",
+      "Activar Uso a Distancia en PS4.",
+      "Registrar el dispositivo.",
+      "Introducir el código de vinculación.",
+      "Completar la conexión.",
+    ],
+
+    usage:
+      "Permite transmitir y controlar la PS4 desde una PS Vita mediante la red local.",
+
+    notes:
+      "La guía utiliza la aplicación Enlace PS4 de PS Vita para realizar la vinculación manual con la consola. 【1-dcce66】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Dispositivos Compatibles",
+        description:
+          "Equipos soportados.",
+
+        items: [
+          "PlayStation 4",
+          "PlayStation Vita",
+          "PS TV",
+          "Remote Play",
+        ],
+      },
+
+      {
+        title: "Configuración PS Vita",
+        description:
+          "Preparación inicial.",
+
+        items: [
+          "HENkaku Settings",
+          "Version Spoofing",
+          "Firmware 3.74",
+          "Configuración previa",
+        ],
+      },
+
+      {
+        title: "Configuración PS4",
+        description:
+          "Opciones necesarias.",
+
+        items: [
+          "Uso a Distancia",
+          "Activar función",
+          "Conexión PS Vita",
+          "Añadir dispositivo",
+        ],
+      },
+
+      {
+        title: "Registro Manual",
+        description:
+          "Vinculación de dispositivos.",
+
+        items: [
+          "Código de registro",
+          "Emparejamiento",
+          "Sin detección automática",
+          "Configuración manual",
+        ],
+      },
+
+      {
+        title: "Aplicación Utilizada",
+        description:
+          "Software en PSVita.",
+
+        items: [
+          "Enlace PS4",
+          "Uso a Distancia",
+          "Registro",
+          "Conexión remota",
+        ],
+      },
+
+      {
+        title: "Red Local",
+        description:
+          "Conectividad.",
+
+        items: [
+          "Misma red",
+          "Wi-Fi doméstica",
+          "Conexión local",
+          "Sin cable adicional",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Jugar desde PS Vita.",
+          "Compatible con PS TV.",
+          "Configuración sencilla.",
+          "Integración oficial Sony.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas similares.",
+
+        items: [
+          "Chiaki",
+          "PSLAN Loader",
+          "Remote Store",
+          "ezRemote Client",
+          "HENkaku PS4",
+        ],
+      },
+    ],
+  },
+},
+// Recuperar Juegos de PS4
+{
+  console: "PS4",
+  name: "Recuperar Juegos de PS4",
+
+  image: "img/PS4/recuperar-juegos-ps4.jpg",
+
+  description:
+    "Guía para recuperar juegos y aplicaciones desaparecidos de la biblioteca de PS4 mediante restauración de base de datos.",
+
+  website: "https://github.com/aizenar/PS4_db_Rebuilder_EXT",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/bBRCHLDC#f5Jvla-dFcJ6PZExRjU41A",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/aizenar/PS4_db_Rebuilder_EXT/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite restaurar juegos y aplicaciones que continúan instalados en la consola pero ya no aparecen en el menú principal.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      FTP: "✅ Compatible",
+      Database: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "PS4_db_Rebuilder_EXT",
+      "FTP Server",
+      "PC con Windows",
+      "Python",
+    ],
+
+    installation: [
+      "Activar FTP en PS4.",
+      "Instalar Python en el PC.",
+      "Descargar PS4_db_Rebuilder_EXT.",
+      "Conectar con la consola.",
+      "Ejecutar la restauración.",
+    ],
+
+    usage:
+      "Permite reconstruir la base de datos de aplicaciones para recuperar juegos y homebrew desaparecidos.",
+
+    notes:
+      "La guía incluye restauración mediante copia de seguridad, reconstrucción automática y restauración manual vía FTP. 【1-b451b9】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Problema Solucionado",
+        description:
+          "Recuperación de contenido.",
+
+        items: [
+          "Juegos desaparecidos",
+          "Aplicaciones ocultas",
+          "Homebrew perdido",
+          "Errores de base de datos",
+        ],
+      },
+
+      {
+        title: "Método DB Backup",
+        description:
+          "Recuperación desde respaldo.",
+
+        items: [
+          "DB Backup",
+          "DB Restore",
+          "Copia previa",
+          "Restauración rápida",
+        ],
+      },
+
+      {
+        title: "PS4_db_Rebuilder_EXT",
+        description:
+          "Reconstrucción automática.",
+
+        items: [
+          "Python",
+          "fix_db.py",
+          "IP de la consola",
+          "Reconstrucción completa",
+        ],
+      },
+
+      {
+        title: "Método FTP",
+        description:
+          "Recuperación manual.",
+
+        items: [
+          "FileZilla",
+          "FTP Server",
+          "app.db",
+          "Restauración manual",
+        ],
+      },
+
+      {
+        title: "Base de Datos",
+        description:
+          "Archivo principal.",
+
+        items: [
+          "/system_data/priv/mms",
+          "app.db",
+          "Biblioteca PS4",
+          "Información instalada",
+        ],
+      },
+
+      {
+        title: "Herramientas Necesarias",
+        description:
+          "Software recomendado.",
+
+        items: [
+          "Python",
+          "PS4_db_Rebuilder_EXT",
+          "FileZilla",
+          "FTP Server",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Recuperar juegos ocultos.",
+          "No requiere reinstalar.",
+          "Compatible con GoldHEN.",
+          "Múltiples métodos disponibles.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS4 Xplorer",
+          "FTP Server",
+          "GoldHEN",
+          "DB Backup",
+          "PS4 PKG Tool",
+        ],
+      },
+    ],
+  },
+},
+// Activar Cuenta PSN
+{
+  console: "PS4",
+  name: "Activar Cuenta PSN",
+
+  image: "img/PS4/activar-cuenta-psn.jpg",
+
+  description:
+    "Guía para activar un usuario local de PS4 utilizando Web Activator y habilitar funciones asociadas a cuentas activadas.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite activar una cuenta local para utilizar determinadas funciones del sistema que requieren una cuenta activada.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      Accounts: "✅ Compatible",
+      SaveData: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Web Activator",
+      "Navegador PS4",
+    ],
+
+    installation: [
+      "Ejecutar GoldHEN.",
+      "Abrir Web Activator.",
+      "Seleccionar el usuario.",
+      "Activar la cuenta.",
+      "Reiniciar la consola.",
+    ],
+
+    usage:
+      "Permite habilitar funciones asociadas a cuentas activadas directamente desde la consola.",
+
+    notes:
+      "Después de la activación es recomendable reiniciar la consola para aplicar correctamente los cambios. 【1-0dd167】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Requisitos",
+        description:
+          "Elementos necesarios.",
+
+        items: [
+          "GoldHEN",
+          "Web Activator",
+          "Navegador PS4",
+          "Usuario local",
+        ],
+      },
+
+      {
+        title: "Activación",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Seleccionar usuario",
+          "Cambiar Account ID",
+          "Set & Activate",
+          "Aplicar cambios",
+        ],
+      },
+
+      {
+        title: "Web Activator",
+        description:
+          "Herramienta utilizada.",
+
+        items: [
+          "Activación local",
+          "Gestión de usuarios",
+          "Interfaz web",
+          "Integración GoldHEN",
+        ],
+      },
+
+      {
+        title: "Funciones Habilitadas",
+        description:
+          "Usos habituales.",
+
+        items: [
+          "Copiar partidas",
+          "Gestión de datos guardados",
+          "Funciones de cuenta",
+          "Opciones adicionales",
+        ],
+      },
+
+      {
+        title: "Reinicio",
+        description:
+          "Paso final.",
+
+        items: [
+          "Guardar cambios",
+          "Reiniciar consola",
+          "Aplicar activación",
+          "Verificar resultado",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Configuración sencilla.",
+          "Compatible con GoldHEN.",
+          "Permite usar Save Data.",
+          "Activación rápida.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "Apollo Save Tool",
+          "PS4 Xplorer",
+          "GoldHEN",
+          "Recuperar Juegos de PS4",
+          "DNS + Cancelar Update",
+        ],
+      },
+    ],
+  },
+},
+// Cambiar HDD de PS4
+{
+  console: "PS4",
+  name: "Cambiar HDD de PS4",
+
+  image: "img/PS4/cambiar-hdd-ps4.jpg",
+
+  description:
+    "Guía para reemplazar el disco duro interno de PlayStation 4 por una unidad de mayor capacidad y restaurar los datos posteriormente.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "PS4 Update",
+      url: "https://darthsternie.net/ps4-firmwares/",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite sustituir el disco duro interno de la consola y restaurar los datos mediante copias de seguridad.",
+
+    compatibility: {
+      PS4: "✅ Compatible",
+      HDD: "✅ Compatible",
+      SSD: "✅ Compatible",
+      Backup: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4",
+      "Nuevo HDD o SSD",
+      "USB para copias de seguridad",
+      "Firmware de reinstalación",
+    ],
+
+    installation: [
+      "Crear una copia de seguridad.",
+      "Instalar el nuevo disco.",
+      "Preparar el USB con el firmware.",
+      "Reinstalar el sistema.",
+      "Restaurar la copia de seguridad.",
+    ],
+
+    usage:
+      "Permite ampliar la capacidad de almacenamiento manteniendo los datos importantes de la consola.",
+
+    notes:
+      "La guía incluye respaldo de base de datos, copia de seguridad completa y restauración posterior del sistema. 【1-80ccb6】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Copias de Seguridad",
+        description:
+          "Protección de datos.",
+
+        items: [
+          "DB Backup",
+          "DB Restore",
+          "USB externo",
+          "Respaldo previo",
+        ],
+      },
+
+      {
+        title: "Disco de Reemplazo",
+        description:
+          "Nuevo almacenamiento.",
+
+        items: [
+          "HDD",
+          "SSD",
+          "Mayor capacidad",
+          "Sustitución interna",
+        ],
+      },
+
+      {
+        title: "Firmware",
+        description:
+          "Reinstalación del sistema.",
+
+        items: [
+          "PS4 Update",
+          "Firmware Recovery",
+          "USB",
+          "Instalación limpia",
+        ],
+      },
+
+      {
+        title: "Modo Recovery",
+        description:
+          "Inicialización del sistema.",
+
+        items: [
+          "Modo seguro",
+          "Reinstalar sistema",
+          "Reconocer disco",
+          "Configuración inicial",
+        ],
+      },
+
+      {
+        title: "Restauración",
+        description:
+          "Recuperar datos.",
+
+        items: [
+          "Restaurar Backup",
+          "Partidas",
+          "Aplicaciones",
+          "Configuración",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Más almacenamiento.",
+          "Compatible con SSD.",
+          "Conservación de datos.",
+          "Mejor organización.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "Recuperar Juegos de PS4",
+          "Activar Cuenta PSN",
+          "Apollo Save Tool",
+          "GoldHEN",
+          "PS4 Xplorer",
+        ],
+      },
+    ],
+  },
+},
+// Backup FPKG
+{
+  console: "PS4",
+  name: "Backup FPKG",
+
+  image: "img/PS4/backup-fpkg.jpg",
+
+  description:
+    "Guía para realizar copias de seguridad de juegos físicos o digitales y convertirlos en paquetes FPKG instalables.",
+
+  website: null,
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aBQk2JiA#1TFWt0tbjsXX1uPncHANew",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite realizar un respaldo completo de juegos instalados y generar archivos FPKG para su futura instalación.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      FPKG: "✅ Compatible",
+      FTP: "✅ Compatible",
+      USB: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Disco USB o HDD externo",
+      "FTP Server",
+      "FileZilla",
+      "PS4 Fake PKG Tools",
+    ],
+
+    installation: [
+      "Instalar el juego en la consola.",
+      "Preparar el dispositivo USB.",
+      "Activar FTP Server.",
+      "Ejecutar Game Dumper.",
+      "Generar los archivos GP4 y PKG.",
+    ],
+
+    usage:
+      "Permite convertir juegos instalados en respaldos FPKG para preservación o reinstalación.",
+
+    notes:
+      "La guía incluye respaldo de juego base, actualizaciones y verificación de archivos de trofeos antes de la creación del FPKG. 【1-2a688b】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Juego Fuente",
+        description:
+          "Contenido a respaldar.",
+
+        items: [
+          "Juego físico",
+          "Juego digital",
+          "Parche opcional",
+          "Contenido instalado",
+        ],
+      },
+
+      {
+        title: "Preparar USB",
+        description:
+          "Almacenamiento externo.",
+
+        items: [
+          "Disco duro externo",
+          "Memoria USB",
+          "Espacio disponible",
+          "Conexión permanente",
+        ],
+      },
+
+      {
+        title: "FTP Server",
+        description:
+          "Acceso a archivos.",
+
+        items: [
+          "GoldHEN",
+          "Enable FTP Server",
+          "IP de consola",
+          "FileZilla",
+        ],
+      },
+
+      {
+        title: "Game Dumper",
+        description:
+          "Extracción del juego.",
+
+        items: [
+          "Dump App",
+          "Dump Patch",
+          "Copiado al USB",
+          "Extracción automática",
+        ],
+      },
+
+      {
+        title: "Trofeos",
+        description:
+          "Verificación previa.",
+
+        items: [
+          "trophy00.trp",
+          "HxD",
+          "Trofeos encriptados",
+          "Validación manual",
+        ],
+      },
+
+      {
+        title: "Fake PKG Tools",
+        description:
+          "Creación de paquetes.",
+
+        items: [
+          "gengp4_app",
+          "gengp4_patch",
+          "GP4",
+          "Orbis Pub Gen",
+        ],
+      },
+
+      {
+        title: "Generación PKG",
+        description:
+          "Resultado final.",
+
+        items: [
+          "Juego base",
+          "Actualización",
+          "FPKG instalable",
+          "Respaldo permanente",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Conservar juegos instalados.",
+          "Crear FPKG propios.",
+          "Compatible con GoldHEN.",
+          "Respaldo de actualizaciones.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "Dump de Juegos PS4",
+          "PS4 PKG Tool",
+          "PS4 PKG Viewer",
+          "pkgMerge",
+          "Trofeos Encriptados para PKG",
+        ],
+      },
+    ],
+  },
+},
+// Eliminar DLC
+{
+  console: "PS4",
+  name: "Eliminar DLC",
+
+  image: "img/PS4/eliminar-dlc.jpg",
+
+  description:
+    "Guía para eliminar DLC, complementos y temas instalados en PlayStation 4 desde Debug Settings.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite administrar y eliminar contenido adicional instalado en la consola sin necesidad de desinstalar el juego completo.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      DLC: "✅ Compatible",
+      Themes: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Debug Settings",
+      "Juego con DLC instalado",
+    ],
+
+    installation: [
+      "Activar GoldHEN.",
+      "Abrir Debug Settings.",
+      "Acceder a Add Content Manager.",
+      "Seleccionar el contenido.",
+      "Eliminar los DLC deseados.",
+    ],
+
+    usage:
+      "Permite borrar DLC, contenido adicional o temas instalados individualmente.",
+
+    notes:
+      "La eliminación se realiza desde Add Content Manager sin afectar necesariamente al juego base. 【1-baa309】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Add Content Manager",
+        description:
+          "Gestión de contenido.",
+
+        items: [
+          "Debug Settings",
+          "Game",
+          "Add Content Manager",
+          "Delete",
+        ],
+      },
+
+      {
+        title: "Contenido Compatible",
+        description:
+          "Elementos administrables.",
+
+        items: [
+          "DLC",
+          "Complementos",
+          "Temas",
+          "Contenido instalado",
+        ],
+      },
+
+      {
+        title: "Selección",
+        description:
+          "Administración manual.",
+
+        items: [
+          "Seleccionar juego",
+          "Elegir DLC",
+          "Selección múltiple",
+          "Selección individual",
+        ],
+      },
+
+      {
+        title: "Temas de PS4",
+        description:
+          "Contenido adicional.",
+
+        items: [
+          "Otros",
+          "Temas instalados",
+          "Eliminar temas",
+          "Gestión manual",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Eliminar DLC concretos.",
+          "No requiere reinstalar.",
+          "Compatible con GoldHEN.",
+          "Administración sencilla.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas complementarias.",
+
+        items: [
+          "PS4 Xplorer",
+          "GoldHEN",
+          "Recuperar Juegos de PS4",
+          "PS4 PKG Tool",
+          "Activar Cuenta PSN",
+        ],
+      },
+    ],
+  },
+},
+// Cambiar Iconos PS4
+{
+  console: "PS4",
+  name: "Cambiar Iconos PS4",
+
+  image: "img/PS4/cambiar-iconos-ps4.jpg",
+
+  description:
+    "Personaliza los iconos de usuario de PlayStation 4 utilizando la herramienta Iconit.",
+
+  website: "https://github.com/OfficialAhmed/Iconit-PS4",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/7YB1XbCK#NvyhHrt7dg_Q7oJvUZO4lQ",
+    },
+    {
+      name: "Github Releases",
+      url: "https://github.com/OfficialAhmed/Iconit-PS4/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite reemplazar los iconos de usuario de PS4 con imágenes personalizadas creadas por el usuario.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      FTP: "✅ Compatible",
+      Iconit: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "Iconit",
+      "FTP habilitado",
+      "Imagen PNG",
+      "PC con Windows",
+    ],
+
+    installation: [
+      "Crear el icono personalizado.",
+      "Guardar la imagen en PNG.",
+      "Activar FTP en la consola.",
+      "Conectar Iconit a PS4.",
+      "Aplicar el nuevo icono.",
+    ],
+
+    usage:
+      "Permite modificar la imagen de perfil de los usuarios registrados en la consola.",
+
+    notes:
+      "Los iconos deben estar en formato PNG para garantizar la compatibilidad con la herramienta. 【1-024716】",
+
+    version: "Actual",
+    author: "Iconit",
+
+    details: [
+      {
+        title: "Diseño del Icono",
+        description:
+          "Creación de imágenes.",
+
+        items: [
+          "Plantilla circular",
+          "PNG",
+          "Diseño personalizado",
+          "Edición gráfica",
+        ],
+      },
+
+      {
+        title: "Programas Compatibles",
+        description:
+          "Edición de imágenes.",
+
+        items: [
+          "Photoshop",
+          "GIMP",
+          "Paint.NET",
+          "PNG Export",
+        ],
+      },
+
+      {
+        title: "Conexión PS4",
+        description:
+          "Acceso a la consola.",
+
+        items: [
+          "FTP",
+          "IP de consola",
+          "Puerto FTP",
+          "GoldHEN",
+        ],
+      },
+
+      {
+        title: "Iconit",
+        description:
+          "Herramienta principal.",
+
+        items: [
+          "Connect PS4",
+          "Cambiar icono",
+          "Idioma español",
+          "Gestión visual",
+        ],
+      },
+
+      {
+        title: "Verificación",
+        description:
+          "Comprobación de cambios.",
+
+        items: [
+          "Cambiar usuario",
+          "Modo reposo",
+          "Recargar perfil",
+          "Ver icono nuevo",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Personalización visual.",
+          "Compatible con GoldHEN.",
+          "Iconos personalizados.",
+          "Resultado inmediato.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Herramientas similares.",
+
+        items: [
+          "Iconit",
+          "Temas PS4",
+          "Eliminar DLC",
+          "PS4 Xplorer",
+          "FTP Server",
+        ],
+      },
+    ],
+  },
+},
+// Activar Multimedia
+{
+  console: "PS4",
+  name: "Activar Multimedia",
+
+  image: "img/PS4/activar-multimedia.jpg",
+
+  description:
+    "Guía para habilitar las funciones multimedia y la reproducción de discos DVD y Blu-ray en PlayStation 4.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite activar las licencias multimedia necesarias para la reproducción de contenido en DVD y Blu-ray.",
+
+    compatibility: {
+      GoldHEN: "✅ Compatible",
+      PS4: "✅ Compatible",
+      DVD: "✅ Compatible",
+      BluRay: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4 con GoldHEN",
+      "USB ExFAT",
+    ],
+
+    installation: [
+      "Ejecutar GoldHEN.",
+      "Abrir Debug Settings.",
+      "Acceder a License Activation.",
+      "Activar las licencias multimedia.",
+      "Probar la reproducción.",
+    ],
+
+    usage:
+      "Permite habilitar funciones multimedia para reproducir contenido en discos compatibles.",
+
+    notes:
+      "La activación se realiza desde Debug Settings mediante el apartado License Activation. 【1-51c49f】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Licencias Multimedia",
+        description: "Activación requerida.",
+
+        items: [
+          "License Activation",
+          "DVD",
+          "Blu-ray",
+          "Códecs multimedia",
+        ],
+      },
+
+      {
+        title: "Debug Settings",
+        description: "Menú utilizado.",
+
+        items: [
+          "GoldHEN",
+          "Debug Settings",
+          "Configuración avanzada",
+          "Activación",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description: "Contenido soportado.",
+
+        items: [
+          "Películas DVD",
+          "Películas Blu-ray",
+          "Contenido multimedia",
+          "Discos físicos",
+        ],
+      },
+
+      {
+        title: "Requisitos",
+        description: "Elementos necesarios.",
+
+        items: [
+          "PS4",
+          "GoldHEN",
+          "USB ExFAT",
+          "Disco multimedia",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Beneficios principales.",
+
+        items: [
+          "Reproducción multimedia.",
+          "Activación rápida.",
+          "Compatible con GoldHEN.",
+          "Uso sencillo.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description: "Herramientas complementarias.",
+
+        items: [
+          "Activar Cuenta PSN",
+          "DNS + Cancelar Update",
+          "GoldHEN",
+          "PS4 Xplorer",
+          "Uso a Distancia con PS Vita",
+        ],
+      },
+    ],
+  },
+},
 ];
