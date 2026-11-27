@@ -4737,4 +4737,163 @@ const psvitaApps = [
       },
     ],
   },
+// PS Vita Modo Seguro
+{
+  console: "PSVita",
+  name: "PS Vita Modo Seguro",
+
+  image: "img/PSVita/psvita-modo-seguro.jpg",
+
+  description:
+    "Guía para acceder al Modo Seguro de PlayStation Vita y utilizar las herramientas de mantenimiento y recuperación del sistema.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite acceder a las opciones avanzadas de recuperación, reparación y actualización del sistema PlayStation Vita.",
+
+    compatibility: {
+      PSVita: "✅ Compatible",
+      Recovery: "✅ Compatible",
+      SafeMode: "✅ Compatible",
+      PSTV: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation Vita",
+      "Batería cargada",
+      "Botones PS + R + POWER",
+    ],
+
+    installation: [
+      "Apagar completamente la consola.",
+      "Mantener presionados PS + R + POWER.",
+      "Esperar aproximadamente 5 segundos.",
+      "Acceder al menú Recovery.",
+    ],
+
+    usage:
+      "Permite solucionar errores del sistema, reparar archivos dañados y restaurar configuraciones.",
+
+    notes:
+      "El modo seguro incluye herramientas para reconstruir la base de datos, restaurar configuraciones y actualizar el sistema. 【1-dd3b2d】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Acceso al Recovery",
+        description: "Inicio del modo seguro.",
+
+        items: [
+          "Botón POWER",
+          "Botón PS",
+          "Botón R",
+          "Arranque Recovery",
+        ],
+      },
+
+      {
+        title: "Reinicio del Sistema",
+        description: "Opciones básicas.",
+
+        items: [
+          "Reiniciar consola",
+          "Salir Recovery",
+          "Arranque normal",
+          "Comprobación rápida",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description: "Restaurar ajustes.",
+
+        items: [
+          "Valores predeterminados",
+          "Configuración sistema",
+          "Opciones Vita",
+          "Restablecimiento",
+        ],
+      },
+
+      {
+        title: "Sistema de Archivos",
+        description: "Corrección de errores.",
+
+        items: [
+          "Archivos dañados",
+          "Reparación",
+          "Memoria interna",
+          "Integridad de datos",
+        ],
+      },
+
+      {
+        title: "Reconstruir Base de Datos",
+        description: "Mantenimiento.",
+
+        items: [
+          "Iconos",
+          "Aplicaciones",
+          "Biblioteca",
+          "Reorganización",
+        ],
+      },
+
+      {
+        title: "Restauración",
+        description: "Recuperación completa.",
+
+        items: [
+          "Formateo",
+          "Restauración sistema",
+          "Valores fábrica",
+          "Reinicio completo",
+        ],
+      },
+
+      {
+        title: "Actualización",
+        description: "Firmware.",
+
+        items: [
+          "Actualizar sistema",
+          "Memoria externa",
+          "Firmware oficial",
+          "Recovery Update",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Beneficios principales.",
+
+        items: [
+          "Recuperación rápida.",
+          "Reparar errores.",
+          "Reconstruir base de datos.",
+          "Actualizar firmware.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description: "Guías similares.",
+
+        items: [
+          "PSP Modo Seguro",
+          "PS3 Modo Seguro",
+          "PS4 Modo Seguro",
+          "HENkaku",
+          "enso",
+        ],
+      },
+    ],
+  },
+},
 ];

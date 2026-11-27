@@ -8788,6 +8788,140 @@ const ps3Apps = [
       ],
     },
   },
+// PS3 Modo Seguro
+{
+  console: "PS3",
+  name: "PS3 Modo Seguro",
+
+  image: "img/PS3/ps3-modo-seguro.jpg",
+
+  description:
+    "Guía para acceder al Modo Seguro de PlayStation 3 y utilizar las herramientas de recuperación del sistema.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite acceder a las herramientas de mantenimiento, reparación y actualización del sistema PlayStation 3.",
+
+    compatibility: {
+      PS3: "✅ Compatible",
+      Recovery: "✅ Compatible",
+      SafeMode: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Mando USB",
+      "Cable USB",
+    ],
+
+    installation: [
+      "Apagar completamente la consola.",
+      "Entrar en Modo Seguro.",
+      "Conectar el mando por USB.",
+      "Seleccionar la opción deseada.",
+    ],
+
+    usage:
+      "Permite solucionar problemas del sistema, reconstruir bases de datos y realizar tareas de recuperación.",
+
+    notes:
+      "El menú de recuperación incluye opciones de mantenimiento y actualización del firmware. 【1-b4b976】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Acceso al Modo Seguro",
+        description: "Inicio del recovery.",
+
+        items: [
+          "Apagar consola",
+          "Mantener POWER",
+          "Escuchar pitidos",
+          "Conectar mando USB",
+        ],
+      },
+
+      {
+        title: "Reconstruir Base de Datos",
+        description: "Mantenimiento.",
+
+        items: [
+          "Reorganizar iconos",
+          "Corregir errores",
+          "Base de datos",
+          "Información del sistema",
+        ],
+      },
+
+      {
+        title: "Restauración",
+        description: "Recuperación del sistema.",
+
+        items: [
+          "Restaurar sistema",
+          "Configuración inicial",
+          "Borrar contenido",
+          "Recuperación",
+        ],
+      },
+
+      {
+        title: "Actualización",
+        description: "Firmware del sistema.",
+
+        items: [
+          "Actualizar firmware",
+          "USB",
+          "PC",
+          "Instalación manual",
+        ],
+      },
+
+      {
+        title: "Herramientas Recovery",
+        description: "Opciones disponibles.",
+
+        items: [
+          "Reinicio sistema",
+          "Reconstrucción BD",
+          "Actualización",
+          "Restauración",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Beneficios principales.",
+
+        items: [
+          "Solución de errores.",
+          "Mantenimiento del sistema.",
+          "Recuperación de fallos.",
+          "Actualización manual.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description: "Guías similares.",
+
+        items: [
+          "PSP Modo Seguro",
+          "PS Vita Modo Seguro",
+          "PS4 Modo Seguro",
+          "Recuperar Juegos de PS4",
+          "Cambiar HDD de PS4",
+        ],
+      },
+    ],
+  },
+},
 
   //Falta
   //06- FTP - Retro Online - UMS

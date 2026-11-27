@@ -12162,4 +12162,164 @@ const ps4Apps = [
     ],
   },
 },
+// PS4 Modo Seguro
+{
+  console: "PS4",
+  name: "PS4 Modo Seguro",
+
+  image: "img/PS4/ps4-modo-seguro.jpg",
+
+  description:
+    "Guía para acceder al Modo Seguro de PlayStation 4 y utilizar sus herramientas de recuperación, reparación y mantenimiento.",
+
+  website: null,
+
+  downloads: [],
+
+  guide: {
+    function:
+      "Permite acceder a las opciones avanzadas de recuperación y diagnóstico del sistema PlayStation 4.",
+
+    compatibility: {
+      PS4: "✅ Compatible",
+      Recovery: "✅ Compatible",
+      SafeMode: "✅ Compatible",
+      GoldHEN: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 4",
+      "Mando DualShock 4",
+      "Cable USB",
+    ],
+
+    installation: [
+      "Apagar completamente la consola.",
+      "Mantener pulsado POWER.",
+      "Esperar al segundo pitido.",
+      "Conectar el mando por USB.",
+      "Acceder al menú Recovery.",
+    ],
+
+    usage:
+      "Permite solucionar errores del sistema, reconstruir bases de datos y reinstalar el firmware cuando sea necesario.",
+
+    notes:
+      "El menú Recovery incluye opciones de actualización, reparación y restauración del sistema. 【1-598d69】",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Acceso al Recovery",
+        description: "Inicio del modo seguro.",
+
+        items: [
+          "Consola apagada",
+          "Botón POWER",
+          "Segundo pitido",
+          "Control USB",
+        ],
+      },
+
+      {
+        title: "Reconstruir Base de Datos",
+        description: "Mantenimiento recomendado.",
+
+        items: [
+          "Reorganizar contenido",
+          "Corregir errores",
+          "Optimizar sistema",
+          "Reindexar aplicaciones",
+        ],
+      },
+
+      {
+        title: "Actualizar Firmware",
+        description: "Recuperación del sistema.",
+
+        items: [
+          "Internet",
+          "USB",
+          "PS4UPDATE.PUP",
+          "Firmware oficial",
+        ],
+      },
+
+      {
+        title: "Restaurar Ajustes",
+        description: "Recuperación parcial.",
+
+        items: [
+          "Configuración",
+          "Valores predeterminados",
+          "Sin borrar juegos",
+          "Sin borrar partidas",
+        ],
+      },
+
+      {
+        title: "Inicialización",
+        description: "Restauración completa.",
+
+        items: [
+          "Borrar contenido",
+          "Restablecer sistema",
+          "Instalación limpia",
+          "Reinstalar firmware",
+        ],
+      },
+
+      {
+        title: "Solución de Problemas",
+        description: "Casos frecuentes.",
+
+        items: [
+          "Pantalla negra",
+          "Errores del sistema",
+          "Actualizaciones fallidas",
+          "Problemas de arranque",
+        ],
+      },
+
+      {
+        title: "PS4 Pro",
+        description: "Opciones exclusivas.",
+
+        items: [
+          "HDCP",
+          "Compatibilidad 4K",
+          "Streaming",
+          "Multimedia",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Beneficios principales.",
+
+        items: [
+          "Recuperación avanzada.",
+          "Reparación del sistema.",
+          "Actualización manual.",
+          "Mantenimiento preventivo.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description: "Guías similares.",
+
+        items: [
+          "PS3 Modo Seguro",
+          "Cambiar HDD de PS4",
+          "Recuperar Juegos de PS4",
+          "DNS + Cancelar Update",
+          "Activar Multimedia",
+        ],
+      },
+    ],
+  },
+},
 ];
